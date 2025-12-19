@@ -116,8 +116,8 @@ export function Header() {
             >
               <Link href="/" className="flex items-center">
                 <Image 
-                  src={isScrolled ? "/images/optimized/logo-blue.webp" : "/images/optimized/logo-white.webp"}
-                  alt="NIBM Tower Cranes Logo"
+                  src={isScrolled ? "/images/Chanan_Trading_logo_dark.png" : "/images/Chanan_trading_logo_light.png"}
+                  alt="Chanan Trading Logo"
                   width={160}
                   height={50}
                   className="h-14 w-auto"
@@ -212,8 +212,8 @@ export function Header() {
                 <div className="flex items-center justify-between mb-10">
                   <Link href="/" onClick={() => setMobileMenuOpen(false)}>
                     <Image 
-                      src="/images/optimized/logo-white.webp"
-                      alt="NIBM Tower Cranes Logo"
+                      src="/images/Chanan_trading_logo_light.png"
+                      alt="Chanan Trading Logo"
                       width={150}
                       height={50}
                       className="h-12 w-auto"
