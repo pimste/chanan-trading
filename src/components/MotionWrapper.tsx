@@ -7,6 +7,7 @@ type MotionDivProps = {
   children: React.ReactNode
   className?: string
   initial?: any
+  animate?: any
   whileInView?: any
   transition?: any
   viewport?: any
@@ -16,6 +17,7 @@ export function MotionDiv({
   children,
   className = '',
   initial,
+  animate,
   whileInView,
   transition,
   viewport,
@@ -25,6 +27,7 @@ export function MotionDiv({
     <motion.div
       className={className}
       initial={initial}
+      animate={animate}
       whileInView={whileInView}
       transition={transition}
       viewport={viewport}
