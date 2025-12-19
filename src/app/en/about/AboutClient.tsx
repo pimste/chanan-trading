@@ -35,7 +35,7 @@ export default function AboutClient() {
   
   const teamMembers = [
     {
-      name: 'Egidius (Gid) Gehlen',
+      name: 'CHANAN WOLOTZKY',
       position: t('about.team.ceo'),
       image: '/images/optimized/gidgehlen.webp',
       bio: t('about.team.ceo.bio'),
@@ -107,7 +107,7 @@ export default function AboutClient() {
             <div className="relative h-96 rounded-lg overflow-hidden">
               <Image
                 src="/images/manitowoc-potain-about.webp"
-                alt="NIBM Tower Cranes story"
+                alt="Chanan Trading story"
                 width={500}
                 height={500}
                 priority
@@ -244,7 +244,7 @@ export default function AboutClient() {
                 </div>
                 <div className="p-8 flex flex-col justify-center">
                   <h3 className="text-2xl font-bold text-neutral-900 mb-2">
-                    Egidius (Gid) Gehlen
+                    CHANAN WOLOTZKY
                   </h3>
                   <p className="text-primary font-medium text-lg mb-4">
                     {t('about.team.ceo')}

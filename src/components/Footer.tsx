@@ -43,7 +43,7 @@ export function Footer() {
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-neutral-300 hover:text-white transition-colors flex items-center"
-                aria-label="Visit NIBM Tower Cranes Facebook page"
+                aria-label="Visit Chanan Trading Facebook page"
               >
                 <FaFacebook size={24} className="mr-2" />
                 <span className="hidden sm:inline text-sm">Facebook</span>
@@ -53,7 +53,7 @@ export function Footer() {
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-neutral-300 hover:text-white transition-colors flex items-center"
-                aria-label="Visit NIBM Tower Cranes LinkedIn profile"
+                aria-label="Visit Chanan Trading LinkedIn profile"
               >
                 <FaLinkedin size={24} className="mr-2" />
                 <span className="hidden sm:inline text-sm">LinkedIn</span>
@@ -63,7 +63,7 @@ export function Footer() {
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-neutral-300 hover:text-white transition-colors flex items-center"
-                aria-label="Visit NIBM Tower Cranes Instagram profile"
+                aria-label="Visit Chanan Trading Instagram profile"
               >
                 <FaInstagram size={24} className="mr-2" />
                 <span className="hidden sm:inline text-sm">Instagram</span>
@@ -207,7 +207,7 @@ export function Footer() {
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <p className="text-neutral-400 text-sm mb-4 md:mb-0">
-                © {new Date().getFullYear()} NIBM Tower Cranes. {t('footer.rights')}
+                © {new Date().getFullYear()} Chanan Trading. {t('footer.rights')}
               </p>
               <div className="flex space-x-6">
                 <Link href={getUrl('/privacy-policy')} className="text-neutral-400 hover:text-white text-sm transition-colors">

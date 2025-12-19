@@ -35,7 +35,7 @@ export default function About() {
   
   const teamMembers = [
     {
-      name: 'Egidius (Gid) Gehlen',
+      name: 'CHANAN WOLOTZKY',
       position: t('about.team.ceo'),
       image: '/images/optimized/gidgehlen.webp',
       bio: t('about.team.ceo.bio'),
@@ -107,7 +107,7 @@ export default function About() {
             <div className="relative h-96 rounded-lg overflow-hidden">
               <Image
                 src="/images/manitowoc-potain-about.webp"
-                alt="NIBM Tower Cranes story"
+                alt="Chanan Trading story"
                 width={500}
                 height={500}
                 priority
