@@ -1,0 +1,48 @@
+{
+  "navigation": {
+    "home": "Startseite",
+    "about": "Über Uns",
+    "services": "Dienstleistungen",
+    "contact": "Kontakt",
+    "news": "Neuigkeiten"
+  },
+  "common": {
+    "readMore": "Weiterlesen",
+    "contactUs": "Kontaktieren Sie Uns",
+    "learnMore": "Mehr Erfahren",
+    "back": "Zurück"
+  },
+  "home": {
+    "hero": {
+      "title": "Professionelle Turmkran-Lösungen",
+      "subtitle": "Fachkundiger Service und Support für Ihre Bauprojekte"
+    }
+  },
+  "about": {
+    "title": "Über NIBM Turmkrane",
+    "description": "Mit jahrzehntelanger Erfahrung in Turmkranlösungen ist NIBM Ihr zuverlässiger Partner im Baugewerbe."
+  },
+  "contact": {
+    "title": "Kontakt Aufnehmen",
+    "form": {
+      "name": "Name",
+      "email": "E-Mail",
+      "message": "Nachricht",
+      "submit": "Nachricht Senden"
+    }
+  },
+  "cranes": {
+    "title": "Ausgewählte Turmkrane",
+    "subtitle": "Entdecken Sie unsere verfügbaren Turmkrane bereit für Ihr nächstes Projekt",
+    "available": "Verfügbar",
+    "comingSoon": "Demnächst Verfügbar",
+    "year": "Jahr",
+    "type": "Typ",
+    "maxCapacity": "Max Kapazität",
+    "maxHeight": "Max Höhe",
+    "viewDetails": "Details Anzeigen",
+    "viewAll": "Alle Krane Anzeigen",
+    "noAvailableCranes": "Hoppla! Unsere Krane spielen Verstecken! 🏗️",
+    "noAvailableCranesSubtitle": "Sie heben wahrscheinlich irgendwo schwere Dinge. Schauen Sie bald wieder vorbei!"
+  }
+} 

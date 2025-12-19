@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "env": {
+    "NEXTAUTH_URL": "https://nibmvb.eu",
+    "NODE_ENV": "production"
+  },
+  "functions": {
+    "src/app/api/**/*.ts": {
+      "maxDuration": 30
+    }
+  }
+} 

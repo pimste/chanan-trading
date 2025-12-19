@@ -1,0 +1,83 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "contact": "Contact",
+    "news": "News"
+  },
+  "common": {
+    "readMore": "Read More",
+    "contactUs": "Contact Us",
+    "learnMore": "Learn More",
+    "back": "Back"
+  },
+  "home": {
+    "hero": {
+      "title": "Professional Tower Crane Solutions",
+      "subtitle": "Expert service and support for your construction projects"
+    }
+  },
+  "about": {
+    "title": "About NIBM Tower Cranes",
+    "description": "With decades of experience in tower crane solutions, NIBM is your trusted partner in construction."
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send Message"
+    }
+  },
+  "cranes": {
+    "title": "Featured Tower Cranes",
+    "subtitle": "Discover our available tower cranes ready for your next project",
+    "available": "Available",
+    "comingSoon": "Coming Soon",
+    "year": "Year",
+    "type": "Type",
+    "maxCapacity": "Max Capacity",
+    "maxHeight": "Max Height",
+    "viewDetails": "View Details",
+    "viewAll": "View All Cranes",
+    "noAvailableCranes": "Oops! Our cranes are playing hide and seek! 🏗️",
+    "noAvailableCranesSubtitle": "They're probably out lifting something heavy. Check back soon!"
+  },
+  "towercranes": {
+    "page": {
+      "title": "Available Tower Cranes"
+    },
+    "filter": {
+      "title": "Filter Tower Cranes",
+      "searchPlaceholder": "Search cranes...",
+      "all": "All",
+      "status": "Status",
+      "type": "Type",
+      "category": "Category"
+    },
+    "status": {
+      "available": "Available",
+      "sold": "Sold",
+      "comingsoon": "Coming Soon"
+    },
+    "type": {
+      "flattop": "Flat Top",
+      "topslewing": "Top Slewing"
+    },
+    "category": {
+      "sale": "For Sale",
+      "rental": "For Rental"
+    },
+    "crane": {
+      "year": "Year",
+      "type": "Type",
+      "maxCapacity": "Max Capacity",
+      "maxJibLength": "Max Jib Length"
+    },
+    "viewDetails": "View Details",
+    "noCranesFound": "No tower cranes found matching your criteria.",
+    "noCranesFoundSuggestion": "Try adjusting your filters or search terms."
+  }
+} 

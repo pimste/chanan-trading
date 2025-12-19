@@ -1,0 +1,48 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "Over Ons",
+    "services": "Diensten",
+    "contact": "Contact",
+    "news": "Nieuws"
+  },
+  "common": {
+    "readMore": "Lees Meer",
+    "contactUs": "Neem Contact Op",
+    "learnMore": "Meer Informatie",
+    "back": "Terug"
+  },
+  "home": {
+    "hero": {
+      "title": "Professionele Torenkraan Oplossingen",
+      "subtitle": "Deskundige service en ondersteuning voor uw bouwprojecten"
+    }
+  },
+  "about": {
+    "title": "Over NIBM Torenkranen",
+    "description": "Met tientallen jaren ervaring in torenkraanoplossingen is NIBM uw betrouwbare partner in de bouw."
+  },
+  "contact": {
+    "title": "Neem Contact Op",
+    "form": {
+      "name": "Naam",
+      "email": "E-mail",
+      "message": "Bericht",
+      "submit": "Verstuur Bericht"
+    }
+  },
+  "cranes": {
+    "title": "Uitgelichte Torenkranen",
+    "subtitle": "Ontdek onze beschikbare torenkranen klaar voor uw volgende project",
+    "available": "Beschikbaar",
+    "comingSoon": "Binnenkort Beschikbaar",
+    "year": "Jaar",
+    "type": "Type",
+    "maxCapacity": "Max Capaciteit",
+    "maxHeight": "Max Hoogte",
+    "viewDetails": "Bekijk Details",
+    "viewAll": "Bekijk Alle Kranen",
+    "noAvailableCranes": "Oeps! Onze kranen spelen verstoppertje! 🏗️",
+    "noAvailableCranesSubtitle": "Ze zijn waarschijnlijk ergens zware dingen aan het tillen. Kom binnenkort terug!"
+  }
+} 
