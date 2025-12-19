@@ -3,8 +3,8 @@ import { generatePageMetadata } from '../../page-metadata'
 
 export async function generateMetadata(): Promise<Metadata> {
   const baseMetadata: Metadata = {
-    title: 'Servicevoorwaarden | NIBM Tower Cranes',
-    description: 'Servicevoorwaarden voor NIBM Tower Cranes website',
+    title: 'Servicevoorwaarden | Chanan Trading',
+    description: 'Servicevoorwaarden voor Chanan Trading website',
     robots: {
       index: false,
       follow: true,

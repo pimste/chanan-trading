@@ -4,10 +4,10 @@ import { generatePageMetadata } from '../../page-metadata'
 export async function generateMetadata(): Promise<Metadata> {
   // Define base metadata for this specific page
   const baseMetadata: Metadata = {
-    title: 'About Us | NIBM Tower Cranes - Your Trusted Tower Crane Partner Since 1996',
-    description: 'Learn about NIBM Tower Cranes, your trusted partner for tower crane sales and services since 1996. Based in Nuth, Limburg, Netherlands, with offices in Netherlands and Israel, we provide expert tower crane solutions across Europe. Discover our history, mission, and commitment to excellence.',
+    title: 'About Us | Chanan Trading - Your Trusted Tower Crane Partner Since 2015',
+    description: 'Learn about Chanan Trading, your trusted partner for tower crane sales and services since 2015. With offices in Netherlands and Israel, we provide expert tower crane solutions. Discover our history, mission, and commitment to excellence.',
     openGraph: {
-      title: 'About NIBM Tower Cranes - Your Trusted Partner Since 1996',
+      title: 'About Chanan Trading - Your Trusted Partner Since 2015',
       description: 'Your trusted partner for tower crane sales and services since 1996. Expert solutions across Europe with offices in Netherlands and Israel.',
       url: 'https://www.nibmvb.eu/en/about',
       images: [
@@ -15,13 +15,13 @@ export async function generateMetadata(): Promise<Metadata> {
           url: 'https://www.nibmvb.eu/images/optimized/cropped-Top-page2-potain6.webp',
           width: 1200,
           height: 630,
-          alt: 'NIBM Tower Cranes - About Us'
+          alt: 'Chanan Trading - About Us'
         }
       ]
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'About NIBM Tower Cranes - Your Trusted Partner Since 1996',
+      title: 'About Chanan Trading - Your Trusted Partner Since 2015',
       description: 'Your trusted partner for tower crane sales and services since 1996. Expert solutions across Europe.',
       images: ['https://www.nibmvb.eu/images/optimized/cropped-Top-page2-potain6.webp'],
     },

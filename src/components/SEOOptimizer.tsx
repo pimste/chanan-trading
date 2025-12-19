@@ -31,7 +31,7 @@ const SEOOptimizer: React.FC<SEOOptimizerProps> = ({
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "@id": "https://www.nibmtowercranes.com/#business",
-    "name": "NIBM Tower Cranes",
+    "name": "Chanan Trading",
     "image": [
       "https://www.nibmtowercranes.com/images/optimized/logo-blue.webp",
       "https://www.nibmtowercranes.com/images/optimized/sunset-TC-2.webp",
@@ -120,7 +120,7 @@ const SEOOptimizer: React.FC<SEOOptimizerProps> = ({
     "@context": "https://schema.org",
     "@type": "Organization",
     "@id": "https://www.nibmtowercranes.com/#organization",
-    "name": "NIBM Tower Cranes",
+    "name": "Chanan Trading",
     "url": "https://www.nibmtowercranes.com",
     "logo": "https://www.nibmtowercranes.com/images/optimized/logo-blue.webp",
     "contactPoint": {
@@ -132,7 +132,7 @@ const SEOOptimizer: React.FC<SEOOptimizerProps> = ({
     },
     "founder": {
       "@type": "Person",
-      "name": "NIBM Founder"
+      "name": "Chanan Wolotzky"
     },
     "foundingDate": "2000",
     "numberOfEmployees": {
@@ -147,7 +147,7 @@ const SEOOptimizer: React.FC<SEOOptimizerProps> = ({
     "@type": "WebSite",
     "@id": "https://www.nibmtowercranes.com/#website",
     "url": "https://www.nibmtowercranes.com",
-    "name": "NIBM Tower Cranes",
+    "name": "Chanan Trading",
     "description": "Professional tower crane rental, sales, and service",
     "publisher": {
       "@id": "https://www.nibmtowercranes.com/#organization"

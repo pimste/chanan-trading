@@ -33,10 +33,10 @@ const blogPosts = [
 // Generate metadata for blog listing page
 export const generateMetadata = async (): Promise<Metadata> => {
   const baseMetadata: Metadata = {
-    title: 'Blog | Turmkran Brancheneinblicke & Leitfäden | NIBM',
-    description: 'Fachkundige Einblicke, Leitfäden und Branchennachrichten über Turmkrane. Erfahren Sie mehr über Turmkran-Spezifikationen, Sicherheitsrichtlinien, Wartungstipps und Best Practices der Bauindustrie von NIBM Tower Cranes.',
+    title: 'Blog | Turmkran Brancheneinblicke & Leitfäden | Chanan Trading',
+    description: 'Fachkundige Einblicke, Leitfäden und Branchennachrichten über Turmkrane. Erfahren Sie mehr über Turmkran-Spezifikationen, Sicherheitsrichtlinien, Wartungstipps und Best Practices der Bauindustrie von Chanan Trading.',
     openGraph: {
-      title: 'Turmkran Blog | Brancheneinblicke & Leitfäden | NIBM',
+      title: 'Turmkran Blog | Brancheneinblicke & Leitfäden | Chanan Trading',
       description: 'Fachkundige Einblicke, Leitfäden und Branchennachrichten über Turmkrane. Erfahren Sie mehr über Spezifikationen, Sicherheit, Wartung und Best Practices.',
       url: 'https://www.nibmvb.eu/de/blog',
       images: [
@@ -44,13 +44,13 @@ export const generateMetadata = async (): Promise<Metadata> => {
           url: 'https://www.nibmvb.eu/images/optimized/cropped-Top-page2-potain6.webp',
           width: 1200,
           height: 630,
-          alt: 'NIBM Tower Cranes Blog - Brancheneinblicke',
+          alt: 'Chanan Trading Blog - Brancheneinblicke',
         }
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Turmkran Blog | Brancheneinblicke & Leitfäden | NIBM',
+      title: 'Turmkran Blog | Brancheneinblicke & Leitfäden | Chanan Trading',
       description: 'Fachkundige Einblicke, Leitfäden und Branchennachrichten über Turmkrane.',
       images: ['https://www.nibmvb.eu/images/optimized/cropped-Top-page2-potain6.webp'],
     },

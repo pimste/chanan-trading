@@ -119,7 +119,7 @@ export default function CookiesPolicy() {
               If you have any questions about this Cookies Policy, please contact us at:
             </p>
             <p className="text-neutral-700 mb-2">
-              NIBM Tower Cranes
+              Chanan Trading
             </p>
             <p className="text-neutral-700 mb-2">
               Kruisweg 8, 6361 TG Nuth, Netherlands

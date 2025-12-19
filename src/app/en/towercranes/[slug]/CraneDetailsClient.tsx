@@ -182,7 +182,7 @@ export default function CraneDetailsClient({ slug }: CraneDetailsClientProps) {
 
   // SEO and schema variables
   const siteUrl = 'https://www.nibmvb.eu'
-  const manufacturer = crane.specifications?.manufacturer || 'NIBM'
+  const manufacturer = crane.specifications?.manufacturer || 'Potain'
   const model = crane.specifications?.model || crane.name
   const availability = crane.status === 'available' ? 'InStock' : 'OutOfStock'
   const condition = crane.specifications?.condition || 'Used'

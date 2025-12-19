@@ -116,16 +116,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   
   if (!crane) {
     return {
-      title: 'Crane Not Found | NIBM Tower Cranes',
+      title: 'Crane Not Found | Chanan Trading',
       description: 'The requested tower crane could not be found.',
     }
   }
   
   // Create a comprehensive description
-  const fullDescription = `${crane.description} Available for ${crane.category.toLowerCase()}. Maximum capacity: ${crane.maxCapacity}, maximum jib length: ${crane.maxJibLength}. Professional tower crane solutions from NIBM.`
+  const fullDescription = `${crane.description} Available for ${crane.category.toLowerCase()}. Maximum capacity: ${crane.maxCapacity}, maximum jib length: ${crane.maxJibLength}. Professional tower crane solutions from Chanan Trading.`
   
   return {
-    title: `${crane.name} - ${crane.type} Tower Crane ${crane.category === 'Sale' ? 'For Sale' : 'For Rent'} | NIBM`,
+    title: `${crane.name} - ${crane.type} Tower Crane ${crane.category === 'Sale' ? 'For Sale' : 'For Rent'} | Chanan Trading`,
     description: fullDescription.length > 160 ? fullDescription.substring(0, 157) + '...' : fullDescription,
     keywords: [
       `${crane.name}`,
@@ -136,13 +136,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       `${crane.maxCapacity} capacity tower crane`,
       `${crane.maxJibLength} jib tower crane`,
       'Potain tower crane',
-      'NIBM tower cranes',
+      'Chanan Trading tower cranes',
     ],
     alternates: {
       canonical: `/en/towercranes/${crane.slug}`,
     },
     openGraph: {
-      title: `${crane.name} - ${crane.type} Tower Crane ${crane.category === 'Sale' ? 'For Sale' : 'For Rent'} | NIBM`,
+      title: `${crane.name} - ${crane.type} Tower Crane ${crane.category === 'Sale' ? 'For Sale' : 'For Rent'} | Chanan Trading`,
       description: fullDescription,
       url: `https://www.nibmvb.eu/en/towercranes/${crane.slug}`,
       type: 'product',

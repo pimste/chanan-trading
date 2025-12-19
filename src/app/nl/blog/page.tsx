@@ -33,10 +33,10 @@ const blogPosts = [
 // Generate metadata for blog listing page
 export const generateMetadata = async (): Promise<Metadata> => {
   const baseMetadata: Metadata = {
-    title: 'Blog | Torenkraan Branche Inzichten & Gidsen | NIBM',
-    description: 'Deskundige inzichten, gidsen en branchenieuws over torenkranen. Leer over torenkraan specificaties, veiligheidsrichtlijnen, onderhoudstips en bouwbest practices van NIBM Tower Cranes.',
+    title: 'Blog | Torenkraan Branche Inzichten & Gidsen | Chanan Trading',
+    description: 'Deskundige inzichten, gidsen en branchenieuws over torenkranen. Leer over torenkraan specificaties, veiligheidsrichtlijnen, onderhoudstips en bouwbest practices van Chanan Trading.',
     openGraph: {
-      title: 'Torenkraan Blog | Branche Inzichten & Gidsen | NIBM',
+      title: 'Torenkraan Blog | Branche Inzichten & Gidsen | Chanan Trading',
       description: 'Deskundige inzichten, gidsen en branchenieuws over torenkranen. Leer over specificaties, veiligheid, onderhoud en best practices.',
       url: 'https://www.nibmvb.eu/nl/blog',
       images: [
@@ -44,13 +44,13 @@ export const generateMetadata = async (): Promise<Metadata> => {
           url: 'https://www.nibmvb.eu/images/optimized/cropped-Top-page2-potain6.webp',
           width: 1200,
           height: 630,
-          alt: 'NIBM Tower Cranes Blog - Branche Inzichten',
+          alt: 'Chanan Trading Blog - Branche Inzichten',
         }
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Torenkraan Blog | Branche Inzichten & Gidsen | NIBM',
+      title: 'Torenkraan Blog | Branche Inzichten & Gidsen | Chanan Trading',
       description: 'Deskundige inzichten, gidsen en branchenieuws over torenkranen.',
       images: ['https://www.nibmvb.eu/images/optimized/cropped-Top-page2-potain6.webp'],
     },

@@ -43,7 +43,7 @@ export function ReviewSchema({
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     '@id': 'https://www.nibmvb.eu/#business',
-    name: 'NIBM Tower Cranes',
+    name: 'Chanan Trading',
     aggregateRating: aggregateRating,
     ...(reviews.length > 0 && {
       review: reviews.map(review => ({

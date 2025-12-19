@@ -28,7 +28,7 @@ export default function PrivacyPolicy() {
 
             <h2 className="text-2xl font-bold text-neutral-900 mb-4">1. Introduction</h2>
             <p className="text-neutral-700 mb-6">
-              NIBM Tower Cranes ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
+              Chanan Trading ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
             </p>
             <p className="text-neutral-700 mb-6">
               Please read this Privacy Policy carefully. By accessing or using our website, you acknowledge that you have read, understood, and agree to be bound by all the terms of this Privacy Policy.
@@ -134,7 +134,7 @@ export default function PrivacyPolicy() {
               If you have any questions about this Privacy Policy, please contact us at:
             </p>
             <p className="text-neutral-700 mb-2">
-              NIBM Tower Cranes
+              Chanan Trading
             </p>
             <p className="text-neutral-700 mb-2">
               Kruisweg 8, 6361 TG Nuth, Netherlands

@@ -33,10 +33,10 @@ const blogPosts = [
 // Generate metadata for blog listing page
 export const generateMetadata = async (): Promise<Metadata> => {
   const baseMetadata: Metadata = {
-    title: 'Blog | Tower Crane Industry Insights & Guides | NIBM',
-    description: 'Expert insights, guides, and industry news about tower cranes. Learn about tower crane specifications, safety guidelines, maintenance tips, and construction industry best practices from NIBM Tower Cranes.',
+    title: 'Blog | Tower Crane Industry Insights & Guides | Chanan Trading',
+    description: 'Expert insights, guides, and industry news about tower cranes. Learn about tower crane specifications, safety guidelines, maintenance tips, and construction industry best practices from Chanan Trading.',
     openGraph: {
-      title: 'Tower Crane Blog | Industry Insights & Guides | NIBM',
+      title: 'Tower Crane Blog | Industry Insights & Guides | Chanan Trading',
       description: 'Expert insights, guides, and industry news about tower cranes. Learn about specifications, safety, maintenance, and best practices.',
       url: 'https://www.nibmvb.eu/en/blog',
       images: [
@@ -44,13 +44,13 @@ export const generateMetadata = async (): Promise<Metadata> => {
           url: 'https://www.nibmvb.eu/images/optimized/cropped-Top-page2-potain6.webp',
           width: 1200,
           height: 630,
-          alt: 'NIBM Tower Cranes Blog - Industry Insights',
+          alt: 'Chanan Trading Blog - Industry Insights',
         }
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Tower Crane Blog | Industry Insights & Guides | NIBM',
+      title: 'Tower Crane Blog | Industry Insights & Guides | Chanan Trading',
       description: 'Expert insights, guides, and industry news about tower cranes.',
       images: ['https://www.nibmvb.eu/images/optimized/cropped-Top-page2-potain6.webp'],
     },

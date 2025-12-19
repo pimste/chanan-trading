@@ -9,7 +9,7 @@ export function ServiceSchema() {
     "serviceType": "Tower Crane Services",
     "provider": {
       "@type": "Organization",
-      "name": "NIBM Tower Cranes",
+      "name": "Chanan Trading",
       "url": "https://www.nibmvb.eu",
       "telephone": "+31 6 53206004",
       "email": "gid.gehlen@nibmtowercranes.com"

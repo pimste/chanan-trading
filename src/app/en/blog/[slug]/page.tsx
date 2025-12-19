@@ -700,13 +700,13 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   
   if (!post) {
     return {
-      title: 'Blog Post Not Found | NIBM Tower Cranes',
+      title: 'Blog Post Not Found | Chanan Trading',
       description: 'The requested blog post could not be found.',
     }
   }
 
   const baseMetadata: Metadata = {
-    title: `${post.title} | NIBM Tower Cranes Blog`,
+    title: `${post.title} | Chanan Trading Blog`,
     description: post.description,
     openGraph: {
       title: post.title,
@@ -789,11 +789,11 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-neutral-900 mb-2">NIBM Tower Cranes</h3>
+                  <h3 className="text-lg font-semibold text-neutral-900 mb-2">Chanan Trading</h3>
                   <p className="text-neutral-700 text-sm mb-2">
-                    Expert tower crane specialists with over 25 years of experience in sales, rental, and maintenance. 
+                    Expert tower crane specialists with extensive experience in sales, rental, and maintenance. 
                     Our team provides professional guidance on tower crane selection, specifications, and project planning 
-                    for construction projects across Europe.
+                    for construction projects.
                   </p>
                   <p className="text-neutral-600 text-sm">
                     <Link href="/en/about" className="text-primary hover:underline">Learn more about our expertise</Link>

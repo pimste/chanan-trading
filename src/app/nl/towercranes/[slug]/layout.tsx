@@ -116,20 +116,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   
   if (!crane) {
     return {
-      title: 'Crane Not Found | NIBM Tower Cranes',
+      title: 'Crane Not Found | Chanan Trading',
       description: 'The requested tower crane could not be found.',
     }
   }
   
   return {
-    title: `${crane.name} - ${crane.type} Tower Crane | NIBM Tower Cranes`,
+    title: `${crane.name} - ${crane.type} Tower Crane | Chanan Trading`,
     description: `${crane.description.substring(0, 157)}...`,
     keywords: `${crane.name}, tower crane, ${crane.type}, ${crane.category === 'Sale' ? 'crane for sale' : 'crane rental'}, construction equipment, ${crane.maxCapacity} capacity, ${crane.maxJibLength} jib length`,
     alternates: {
       canonical: `/towercranes/${crane.slug}`,
     },
     openGraph: {
-      title: `${crane.name} - ${crane.type} Tower Crane | NIBM Tower Cranes`,
+      title: `${crane.name} - ${crane.type} Tower Crane | Chanan Trading`,
       description: crane.description,
       images: [{
         url: crane.image,

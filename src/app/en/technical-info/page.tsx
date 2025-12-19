@@ -5,10 +5,10 @@ import { generatePageMetadata } from '../../page-metadata'
 
 // Base metadata for technical-info page in en language
 const baseMetadata: Metadata = {
-  title: 'Technical Information | Tower Crane Specifications & Guidelines | NIBM',
-  description: 'Comprehensive technical information, specifications, and safety guidelines for tower cranes. Learn about tower crane capacities, jib lengths, load charts, installation requirements, and operational best practices from NIBM Tower Cranes experts.',
+  title: 'Technical Information | Tower Crane Specifications & Guidelines | Chanan Trading',
+  description: 'Comprehensive technical information, specifications, and safety guidelines for tower cranes. Learn about tower crane capacities, jib lengths, load charts, installation requirements, and operational best practices from Chanan Trading experts.',
   openGraph: {
-    title: 'Tower Crane Technical Information & Specifications | NIBM',
+    title: 'Tower Crane Technical Information & Specifications | Chanan Trading',
     description: 'Access detailed technical specifications, safety guidelines, and operational information for tower cranes. Expert resources for construction professionals.',
     url: 'https://www.nibmvb.eu/en/technical-info',
     images: [
@@ -22,7 +22,7 @@ const baseMetadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Tower Crane Technical Information & Specifications | NIBM',
+    title: 'Tower Crane Technical Information & Specifications | Chanan Trading',
     description: 'Comprehensive technical information and specifications for tower cranes. Expert resources for construction professionals.',
     images: ['https://www.nibmvb.eu/images/optimized/cropped-Top-page2-potain6.webp'],
   },

@@ -25,10 +25,10 @@ export function ArticleSchema({
   url,
   image = 'https://www.nibmvb.eu/images/optimized/cropped-Top-page2-potain6.webp',
   author = {
-    name: 'NIBM Tower Cranes',
+    name: 'Chanan Trading',
   },
   publisher = {
-    name: 'NIBM Tower Cranes',
+    name: 'Chanan Trading',
     logo: 'https://www.nibmvb.eu/images/optimized/logo-blue.webp',
   },
 }: ArticleSchemaProps) {

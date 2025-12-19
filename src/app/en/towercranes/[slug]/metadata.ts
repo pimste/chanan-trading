@@ -63,24 +63,24 @@ export async function generateTowerCraneMetadata({ params }: { params: { slug: s
   
   if (!crane) {
     return {
-      title: 'Tower Crane - NIBM',
+      title: 'Tower Crane - Chanan Trading',
       description: 'Professional tower crane services and equipment',
     }
   }
 
   return {
-    title: `${crane.name} - Tower Crane Details | NIBM`,
-    description: `${crane.description}. Model: ${crane.model}, Year: ${crane.year ?? '-'}. Professional tower crane services by NIBM.`,
-    keywords: `tower crane, ${crane.name}, ${crane.model}, construction equipment, NIBM`,
+    title: `${crane.name} - Tower Crane Details | Chanan Trading`,
+    description: `${crane.description}. Model: ${crane.model}, Year: ${crane.year ?? '-'}. Professional tower crane services by Chanan Trading.`,
+    keywords: `tower crane, ${crane.name}, ${crane.model}, construction equipment, Chanan Trading`,
     openGraph: {
-      title: `${crane.name} - NIBM`,
+      title: `${crane.name} - Chanan Trading`,
       description: crane.description,
       type: 'website',
-      siteName: 'NIBM - Tower Crane Services',
+      siteName: 'Chanan Trading - Tower Crane Services',
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${crane.name} - NIBM`,
+      title: `${crane.name} - Chanan Trading`,
       description: crane.description,
     },
   }

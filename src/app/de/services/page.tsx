@@ -6,10 +6,10 @@ import ServicesClient from '../../en/services/ServicesClient'
 export const generateMetadata = async (): Promise<Metadata> => {
   // Define base metadata for services page
   const baseMetadata: Metadata = {
-    title: 'Unsere Dienstleistungen | NIBM Tower Cranes',
+    title: 'Unsere Dienstleistungen | Chanan Trading',
     description: 'Entdecken Sie unser umfassendes Angebot an Turmkrandienstleistungen, darunter Verkauf, Installation, Wartung und Bedienerschulung.',
     openGraph: {
-      title: 'Turmkran-Dienstleistungen von NIBM',
+      title: 'Turmkran-Dienstleistungen von Chanan Trading',
       description: 'Komplette Turmkranlösungen für Ihre Bauprojekte, von der Auswahl und Lieferung bis hin zur Installation und Unterstützung.',
       url: 'https://www.nibmvb.eu/de/services',
       images: [
@@ -17,13 +17,13 @@ export const generateMetadata = async (): Promise<Metadata> => {
           url: 'https://www.nibmvb.eu/images/optimized/cropped-Top-page2-potain6.webp',
           width: 1200,
           height: 630,
-          alt: 'NIBM Turmkran-Dienstleistungen - Verkauf, Vermietung, Installation & Wartung'
+          alt: 'Chanan Trading Turmkran-Dienstleistungen - Verkauf, Vermietung, Installation & Wartung'
         }
       ]
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Turmkran-Dienstleistungen von NIBM',
+      title: 'Turmkran-Dienstleistungen von Chanan Trading',
       description: 'Komplette Turmkranlösungen für Ihre Bauprojekte, von der Auswahl und Lieferung bis hin zur Installation und Unterstützung.',
       images: ['https://www.nibmvb.eu/images/optimized/cropped-Top-page2-potain6.webp'],
     },

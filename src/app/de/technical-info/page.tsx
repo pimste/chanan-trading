@@ -4,10 +4,10 @@ import TechnicalInfoClient from './TechnicalInfoClient'
 
 // Base metadata for technical-info page in de language
 const baseMetadata: Metadata = {
-  title: 'Technische Informationen | Turmkran Spezifikationen & Richtlinien | NIBM',
-  description: 'Umfassende technische Informationen, Spezifikationen und Sicherheitsrichtlinien für Turmkrane. Erfahren Sie mehr über Turmkran-Kapazitäten, Auslegerlängen, Lastdiagramme, Installationsanforderungen und bewährte Betriebspraktiken von NIBM Tower Cranes Experten.',
+  title: 'Technische Informationen | Turmkran Spezifikationen & Richtlinien | Chanan Trading',
+  description: 'Umfassende technische Informationen, Spezifikationen und Sicherheitsrichtlinien für Turmkrane. Erfahren Sie mehr über Turmkran-Kapazitäten, Auslegerlängen, Lastdiagramme, Installationsanforderungen und bewährte Betriebspraktiken von Chanan Trading Experten.',
   openGraph: {
-    title: 'Technische Informationen & Spezifikationen Turmkrane | NIBM',
+    title: 'Technische Informationen & Spezifikationen Turmkrane | Chanan Trading',
     description: 'Zugang zu detaillierten technischen Spezifikationen, Sicherheitsrichtlinien und Betriebsinformationen für Turmkrane. Expertenressourcen für Bauprofis.',
     url: 'https://www.nibmvb.eu/de/technical-info',
     images: [
@@ -21,7 +21,7 @@ const baseMetadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Technische Informationen & Spezifikationen Turmkrane | NIBM',
+    title: 'Technische Informationen & Spezifikationen Turmkrane | Chanan Trading',
     description: 'Umfassende technische Informationen und Spezifikationen für Turmkrane. Expertenressourcen für Bauprofis.',
     images: ['https://www.nibmvb.eu/images/optimized/cropped-Top-page2-potain6.webp'],
   },

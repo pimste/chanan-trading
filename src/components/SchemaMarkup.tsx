@@ -16,7 +16,7 @@ interface SchemaMarkupProps {
 }
 
 export function SchemaMarkup({
-  companyName = 'NIBM Tower Cranes',
+  companyName = 'Chanan Trading',
   companyLogo = 'https://www.nibmvb.eu/images/optimized/logo-blue.webp',
   streetAddress = 'Kruisweg 8',
   addressLocality = 'Nuth',

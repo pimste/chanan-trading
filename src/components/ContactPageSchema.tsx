@@ -16,7 +16,7 @@ interface ContactPageSchemaProps {
 
 export function ContactPageSchema({
   siteUrl = 'https://www.nibmvb.eu',
-  companyName = 'NIBM Tower Cranes',
+  companyName = 'Chanan Trading',
   streetAddress = 'Kruisweg 8',
   addressLocality = 'Nuth',
   postalCode = '6361 TG',
@@ -36,7 +36,7 @@ export function ContactPageSchema({
     '@type': 'ContactPage',
     '@id': `${siteUrl}${pathname}#contactpage`,
     url: `${siteUrl}${pathname}`,
-    name: 'Contact NIBM Tower Cranes',
+    name: 'Contact Chanan Trading',
             description: 'Contact us for tower crane sales and services',
     provider: {
       '@type': 'LocalBusiness',

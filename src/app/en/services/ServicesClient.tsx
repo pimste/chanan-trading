@@ -140,7 +140,7 @@ export default function ServicesClient() {
                 {t('services.overview.desc')}
               </p>,
               <p className="text-lg text-neutral-700">
-                NIBM Tower Cranes offers a full range of services to meet all your tower crane needs. Our integrated approach ensures that every aspect of your crane requirements is handled with expertise and attention to detail.
+                Chanan Trading offers a full range of services to meet all your tower crane needs. Our integrated approach ensures that every aspect of your crane requirements is handled with expertise and attention to detail.
               </p>
             )}
           </div>

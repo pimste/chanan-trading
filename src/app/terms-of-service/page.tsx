@@ -28,12 +28,12 @@ export default function TermsOfService() {
 
             <h2 className="text-2xl font-bold text-neutral-900 mb-4">1. Agreement to Terms</h2>
             <p className="text-neutral-700 mb-6">
-              By accessing or using the NIBM Tower Cranes website or services, you agree to be bound by these Terms of Service. If you disagree with any part of these terms, you may not access our website or use our services.
+              By accessing or using the Chanan Trading website or services, you agree to be bound by these Terms of Service. If you disagree with any part of these terms, you may not access our website or use our services.
             </p>
 
             <h2 className="text-2xl font-bold text-neutral-900 mb-4">2. Intellectual Property</h2>
             <p className="text-neutral-700 mb-6">
-              The content, features, and functionality of our website, including but not limited to text, graphics, logos, icons, images, audio clips, digital downloads, data compilations, and software, are owned by NIBM Tower Cranes and are protected by international copyright, trademark, patent, trade secret, and other intellectual property laws.
+              The content, features, and functionality of our website, including but not limited to text, graphics, logos, icons, images, audio clips, digital downloads, data compilations, and software, are owned by Chanan Trading and are protected by international copyright, trademark, patent, trade secret, and other intellectual property laws.
             </p>
             <p className="text-neutral-700 mb-6">
               You may not reproduce, distribute, modify, create derivative works of, publicly display, publicly perform, republish, download, store, or transmit any of the material on our website, except as permitted by these Terms of Service.
@@ -52,7 +52,7 @@ export default function TermsOfService() {
               <li>In any way that violates any applicable national or international law or regulation</li>
               <li>For the purpose of exploiting, harming, or attempting to exploit or harm minors in any way</li>
               <li>To transmit, or procure the sending of, any advertising or promotional material, including any "junk mail," "chain letter," "spam," or any other similar solicitation</li>
-              <li>To impersonate or attempt to impersonate NIBM Tower Cranes, a NIBM Tower Cranes employee, another user, or any other person or entity</li>
+              <li>To impersonate or attempt to impersonate Chanan Trading, a Chanan Trading employee, another user, or any other person or entity</li>
               <li>In any way that infringes upon the rights of others, or in any way is illegal, threatening, fraudulent, or harmful</li>
               <li>To engage in any other conduct that restricts or inhibits anyone's use or enjoyment of the website</li>
             </ul>
@@ -72,12 +72,12 @@ export default function TermsOfService() {
 
             <h2 className="text-2xl font-bold text-neutral-900 mb-4">7. Limitation of Liability</h2>
             <p className="text-neutral-700 mb-6">
-              IN NO EVENT SHALL NIBM TOWER CRANES, NOR ITS DIRECTORS, EMPLOYEES, PARTNERS, AGENTS, SUPPLIERS, OR AFFILIATES, BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES, INCLUDING WITHOUT LIMITATION, LOSS OF PROFITS, DATA, USE, GOODWILL, OR OTHER INTANGIBLE LOSSES, RESULTING FROM YOUR ACCESS TO OR USE OF OR INABILITY TO ACCESS OR USE THE WEBSITE.
+              IN NO EVENT SHALL CHANAN TRADING, NOR ITS DIRECTORS, EMPLOYEES, PARTNERS, AGENTS, SUPPLIERS, OR AFFILIATES, BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES, INCLUDING WITHOUT LIMITATION, LOSS OF PROFITS, DATA, USE, GOODWILL, OR OTHER INTANGIBLE LOSSES, RESULTING FROM YOUR ACCESS TO OR USE OF OR INABILITY TO ACCESS OR USE THE WEBSITE.
             </p>
 
             <h2 className="text-2xl font-bold text-neutral-900 mb-4">8. Indemnification</h2>
             <p className="text-neutral-700 mb-6">
-              You agree to defend, indemnify, and hold harmless NIBM Tower Cranes and its licensees and licensors, and their employees, contractors, agents, officers, and directors, from and against any and all claims, damages, obligations, losses, liabilities, costs or debt, and expenses (including but not limited to attorney's fees) arising from your use of and access to the website, or your violation of any term of these Terms of Service.
+              You agree to defend, indemnify, and hold harmless Chanan Trading and its licensees and licensors, and their employees, contractors, agents, officers, and directors, from and against any and all claims, damages, obligations, losses, liabilities, costs or debt, and expenses (including but not limited to attorney's fees) arising from your use of and access to the website, or your violation of any term of these Terms of Service.
             </p>
 
             <h2 className="text-2xl font-bold text-neutral-900 mb-4">9. Governing Law</h2>
@@ -101,7 +101,7 @@ export default function TermsOfService() {
               If you have any questions about these Terms of Service, please contact us at:
             </p>
             <p className="text-neutral-700 mb-2">
-              NIBM Tower Cranes
+              Chanan Trading
             </p>
             <p className="text-neutral-700 mb-2">
               Kruisweg 8, 6361 TG Nuth, Netherlands

@@ -3,8 +3,8 @@ import { generatePageMetadata } from '../../page-metadata'
 
 export async function generateMetadata(): Promise<Metadata> {
   const baseMetadata: Metadata = {
-    title: 'Cookie-Richtlinie | NIBM Tower Cranes',
-    description: 'Cookie-Richtlinie für NIBM Tower Cranes Website',
+    title: 'Cookie-Richtlinie | Chanan Trading',
+    description: 'Cookie-Richtlinie für Chanan Trading Website',
     robots: {
       index: false,
       follow: true,

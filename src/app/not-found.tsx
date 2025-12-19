@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { FaHome, FaArrowLeft, FaWrench } from 'react-icons/fa'
 
 export const metadata = {
-  title: '404 - Page Not Found | NIBM Tower Cranes',
+  title: '404 - Page Not Found | Chanan Trading',
   description: 'The page you are looking for could not be found.',
 }
 
@@ -16,7 +16,7 @@ export default function NotFound() {
           <Link href="/" className="inline-block">
             <Image
               src="/images/optimized/logo-blue.webp"
-              alt="NIBM Tower Cranes Logo"
+              alt="Chanan Trading Logo"
               width={200}
               height={80}
               className="h-16 w-auto mx-auto"

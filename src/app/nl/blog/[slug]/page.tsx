@@ -205,13 +205,13 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   
   if (!post) {
     return {
-      title: 'Blog Artikel Niet Gevonden | NIBM Tower Cranes',
+      title: 'Blog Artikel Niet Gevonden | Chanan Trading',
       description: 'Het gevraagde blog artikel kon niet worden gevonden.',
     }
   }
 
   const baseMetadata: Metadata = {
-    title: `${post.title} | NIBM Tower Cranes Blog`,
+    title: `${post.title} | Chanan Trading Blog`,
     description: post.description,
     openGraph: {
       title: post.title,

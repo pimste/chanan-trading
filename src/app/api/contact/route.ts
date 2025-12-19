@@ -102,7 +102,7 @@ export async function POST(request: Request) {
       <html>
         <head>
           <meta charset="utf-8">
-          <title>New Contact Form Submission - NIBM Tower Cranes</title>
+          <title>New Contact Form Submission - Chanan Trading</title>
           <style>
             body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; }
             .header { background-color: #0F172A; color: white; padding: 20px; text-align: center; }
@@ -117,7 +117,7 @@ export async function POST(request: Request) {
         <body>
           <div class="header">
             <h1>🏗️ New Contact Form Submission</h1>
-            <p>NIBM Tower Cranes Website</p>
+            <p>Chanan Trading Website</p>
           </div>
           
           <div class="content">
@@ -169,7 +169,7 @@ export async function POST(request: Request) {
           </div>
           
           <div class="footer">
-            <p>This email was sent from the NIBM Tower Cranes website contact form.</p>
+            <p>This email was sent from the Chanan Trading website contact form.</p>
             <p>Received on: ${new Date().toLocaleString('en-NL', { timeZone: 'Europe/Amsterdam' })}</p>
           </div>
         </body>
@@ -180,7 +180,7 @@ export async function POST(request: Request) {
     
     // Send email using Resend
     const { data, error } = await resend.emails.send({
-      from: `NIBM Tower Cranes <${process.env.RESEND_FROM_EMAIL || 'noreply@nibmvb.eu'}>`,
+      from: `Chanan Trading <${process.env.RESEND_FROM_EMAIL || 'noreply@chanan-trading.com'}>`,
       to: [process.env.RESEND_TO_EMAIL || 'gid.gehlen@nibmtowercranes.com'],
       subject: `🏗️ ${sanitizedData.inquiryType}: ${sanitizedData.subject || 'Website Contact'} - ${sanitizedData.name}`,
       html: htmlContent,

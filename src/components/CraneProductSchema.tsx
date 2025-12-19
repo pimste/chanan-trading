@@ -51,7 +51,7 @@ export function CraneProductSchema({ crane }: CraneProductSchemaProps) {
       itemCondition: crane.category === 'Sale' ? 'https://schema.org/NewCondition' : 'https://schema.org/UsedCondition',
       seller: {
         '@type': 'Organization',
-        name: 'NIBM Tower Cranes',
+        name: 'Chanan Trading',
         url: siteUrl
       }
     }

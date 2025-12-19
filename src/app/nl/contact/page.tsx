@@ -4,10 +4,10 @@ import ContactClient from './ContactClient'
 
 // Base metadata for contact page in nl language
 const baseMetadata: Metadata = {
-  title: 'Contact | NIBM Tower Cranes - Specialist in Torenkranen',
-  description: 'Neem contact op met NIBM Tower Cranes voor professionele torenkraan verkoop, verhuur, installatie en onderhoudsdiensten. Contacteer ons kantoor in Nederland op Kruisweg 8, Nuth, of ons kantoor in Israël. Deskundige ondersteuning voor uw bouwprojecten.',
+  title: 'Contact | Chanan Trading - Specialist in Torenkranen',
+  description: 'Neem contact op met Chanan Trading voor professionele torenkraan verkoop, verhuur, installatie en onderhoudsdiensten. Contacteer ons kantoor in Nederland op Kruisweg 8, Nuth, of ons kantoor in Israël. Deskundige ondersteuning voor uw bouwprojecten.',
   openGraph: {
-    title: 'Contact NIBM Tower Cranes - Specialist in Torenkranen',
+    title: 'Contact Chanan Trading - Specialist in Torenkranen',
     description: 'Contacteer onze torenkraan specialisten voor verkoop, verhuur, installatie en onderhoudsdiensten. Kantoren in Nederland en Israël.',
     url: 'https://www.nibmvb.eu/nl/contact',
     images: [
@@ -15,13 +15,13 @@ const baseMetadata: Metadata = {
         url: 'https://www.nibmvb.eu/images/optimized/cropped-Top-page2-potain6.webp',
         width: 1200,
         height: 630,
-        alt: 'Contact NIBM Tower Cranes - Professionele Torenkraan Diensten',
+        alt: 'Contact Chanan Trading - Professionele Torenkraan Diensten',
       }
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Contact NIBM Tower Cranes - Specialist in Torenkranen',
+    title: 'Contact Chanan Trading - Specialist in Torenkranen',
     description: 'Neem contact op met onze torenkraan specialisten voor professionele verkoop, verhuur en onderhoudsdiensten.',
     images: ['https://www.nibmvb.eu/images/optimized/cropped-Top-page2-potain6.webp'],
   },

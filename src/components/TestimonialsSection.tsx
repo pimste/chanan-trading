@@ -8,21 +8,21 @@ import { useLanguage } from '@/context/LanguageContext'
 const testimonials = [
   {
     id: 1,
-    quote: "NIBM Tower Cranes has been instrumental in our success across multiple construction projects. Their equipment reliability and technical support are unmatched in the industry.",
+    quote: "Chanan Trading has been instrumental in our success across multiple construction projects. Their equipment reliability and technical support are unmatched in the industry.",
     name: "Sarah Johnson",
     title: "Project Manager",
     company: "Urban Construction Ltd"
   },
   {
     id: 2,
-    quote: "Working with NIBM Tower Cranes has significantly improved our project timelines. Their maintenance team is responsive, and the equipment quality has exceeded our expectations.",
+    quote: "Working with Chanan Trading has significantly improved our project timelines. Their maintenance team is responsive, and the equipment quality has exceeded our expectations.",
     name: "Michael Chen",
     title: "Construction Director",
     company: "Global Infrastructure Group"
   },
   {
     id: 3,
-    quote: "From start to finish, the team at NIBM has shown exceptional professionalism. The cranes perform flawlessly, and their operators are highly skilled and safety-conscious.",
+    quote: "From start to finish, the team at Chanan Trading has shown exceptional professionalism. The cranes perform flawlessly, and their operators are highly skilled and safety-conscious.",
     name: "Anita Patel",
     title: "Chief Operations Officer",
     company: "Skyline Developers"

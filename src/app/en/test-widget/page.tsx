@@ -6,7 +6,7 @@ import TestWidgetClient from './TestWidgetClient.tsx'
 export const generateMetadata = async (): Promise<Metadata> => {
   // Define base metadata for test widget page
   const baseMetadata: Metadata = {
-    title: 'Test Widget | NIBM Tower Cranes',
+    title: 'Test Widget | Chanan Trading',
     description: 'Test page for Keystone widget integration.',
   }
 

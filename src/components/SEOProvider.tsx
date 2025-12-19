@@ -19,7 +19,7 @@ export function SEOProvider() {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "NIBM Tower Cranes",
+    "name": "Chanan Trading",
     "url": "https://www.nibmvb.eu/",
     "logo": {
       "@type": "ImageObject",
@@ -53,7 +53,7 @@ export function SEOProvider() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "url": "https://www.nibmvb.eu/",
-    "name": "NIBM Tower Cranes",
+    "name": "Chanan Trading",
     "description": "Professional tower crane sales, rental, and services across Europe",
     "potentialAction": {
       "@type": "SearchAction",
@@ -75,7 +75,7 @@ export function SEOProvider() {
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "NIBM Tower Cranes",
+    "name": "Chanan Trading",
     "image": "https://www.nibmvb.eu/images/optimized/cropped-Top-page2-potain6.webp",
     "priceRange": "€€€",
     "telephone": "+31 6 53206004",
