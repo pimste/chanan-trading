@@ -276,9 +276,9 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: '/favicon.ico',
-    shortcut: '/favicon.ico',
-    apple: '/favicon.ico',
+    icon: '/images/Chanan_Trading_logo_dark.png',
+    shortcut: '/images/Chanan_Trading_logo_dark.png',
+    apple: '/images/Chanan_Trading_logo_dark.png',
   },
   openGraph: {
     type: 'website',

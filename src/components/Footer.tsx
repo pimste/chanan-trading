@@ -18,10 +18,10 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Information */}
           <div>
-            <Link href={getUrl('/')} className="inline-block mb-6" aria-label="NIBM Tower Cranes - Homepage">
+            <Link href={getUrl('/')} className="inline-block mb-6" aria-label="Chanan Trading - Homepage">
               <Image
-                src="/images/optimized/logo-white.webp"
-                alt="NIBM Tower Cranes Logo"
+                src="/images/Chanan_trading_logo_light.png"
+                alt="Chanan Trading Logo"
                 width={150}
                 height={50}
                 className="h-12 w-auto"

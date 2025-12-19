@@ -75,13 +75,13 @@ export function Header() {
               <div className="flex items-center space-x-6">
                 <ProtectedContact 
                   type="phone" 
-                  value="+31653206004" 
+                  value="+972505339298" 
                   className="flex items-center text-sm hover:text-secondary transition-colors"
                   iconClassName="mr-2"
                 />
                 <ProtectedContact 
                   type="email" 
-                  value="gid.gehlen@nibmtowercranes.com" 
+                  value="chanan@chanan-trading.com" 
                   className="flex items-center text-sm hover:text-secondary transition-colors"
                   iconClassName="mr-2"
                 />
@@ -288,13 +288,13 @@ export function Header() {
                     <div className="space-y-3">
                       <ProtectedContact 
                         type="phone" 
-                        value="+31653206004" 
+                        value="+972505339298" 
                         className="flex items-center text-white hover:text-secondary transition-colors"
                         iconClassName="mr-3 w-4 h-4"
                       />
                       <ProtectedContact 
                         type="email" 
-                        value="gid.gehlen@nibmtowercranes.com" 
+                        value="chanan@chanan-trading.com" 
                         className="flex items-center text-white hover:text-secondary transition-colors"
                         iconClassName="mr-3 w-4 h-4"
                       />

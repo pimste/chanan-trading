@@ -358,7 +358,7 @@ export default function ContactClient() {
           </h2>
           <div className="relative h-96 w-full rounded-lg overflow-hidden">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3376.123456789!2d35.0123456!3d32.1234567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zS2lkcm9uIDggU3RyLCBBbGZpLU1lbmFzaGUgNDQ4NTEwMCwgSXNyYWVs!5e0!3m2!1sen!2sil!4v1677581082049!5m2!1sen!2sil"
+              src="https://www.google.com/maps?q=Kidron+8+Str,+Alfi+Menashe+4485100,+Israel&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}
