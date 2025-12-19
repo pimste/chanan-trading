@@ -8,24 +8,24 @@ import { generatePageMetadata } from '../page-metadata'
 export const generateMetadata = async (): Promise<Metadata> => {
   // Define base metadata for home page
   const baseMetadata: Metadata = {
-    title: 'NIBM Tower Cranes | Professional Tower Crane Sales, Rental & Services',
-    description: 'NIBM Tower Cranes specializes in professional tower crane sales, rental, installation, and maintenance services in Netherlands, Germany, Belgium, and across Europe. Based in Nuth, Limburg, we provide expert Potain tower crane solutions for construction projects. Offices in Netherlands and Israel. Trusted partner since 1996.',
+    title: 'Chanan Trading | Professional Tower Crane Sales, Rental & Services',
+    description: 'Chanan Trading specializes in professional tower crane sales, rental, installation, and maintenance services. Expert Potain tower crane solutions for construction projects. Offices in Netherlands and Israel. Trusted partner since 2015.',
     openGraph: {
-      title: 'NIBM Tower Cranes | Professional Tower Crane Solutions',
-      description: 'Expert tower crane sales, rental, installation, and maintenance services across Europe. Professional Potain tower crane solutions for your construction projects.',
+      title: 'Chanan Trading | Professional Tower Crane Solutions',
+      description: 'Expert tower crane sales, rental, installation, and maintenance services. Professional Potain tower crane solutions for your construction projects.',
       url: 'https://www.nibmvb.eu/en',
       images: [
         {
           url: 'https://www.nibmvb.eu/images/optimized/cropped-Top-page2-potain6.webp',
           width: 1200,
           height: 630,
-          alt: 'NIBM Tower Cranes - Professional Tower Crane Solutions',
+          alt: 'Chanan Trading - Professional Tower Crane Solutions',
         }
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'NIBM Tower Cranes | Professional Tower Crane Solutions',
+      title: 'Chanan Trading | Professional Tower Crane Solutions',
       description: 'Expert tower crane sales, rental, installation, and maintenance services across Europe.',
       images: ['https://www.nibmvb.eu/images/optimized/cropped-Top-page2-potain6.webp'],
     },

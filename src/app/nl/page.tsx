@@ -8,8 +8,8 @@ import { generatePageMetadata } from '../page-metadata'
 export const generateMetadata = async (): Promise<Metadata> => {
   // Define base metadata for home page
   const baseMetadata: Metadata = {
-    title: 'NIBM Tower Cranes | Specialisten in de verkoop van torenkranen',
-    description: 'NIBM Tower Cranes is gespecialiseerd in de verkoop van torenkranen, met complete serviceoplossingen van planning tot doorlopende ondersteuning.',
+    title: 'Chanan Trading | Specialisten in de verkoop van torenkranen',
+    description: 'Chanan Trading is gespecialiseerd in de verkoop van torenkranen, met complete serviceoplossingen van planning tot doorlopende ondersteuning.',
   }
 
   // Use the utility to generate metadata with canonical URLs

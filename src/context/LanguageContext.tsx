@@ -36,7 +36,7 @@ export const translations: Record<Language, Record<string, string>> = {
     // Hero Section
     'hero.title1': 'Elevating Construction',
     'hero.title2': 'To New Heights',
-    'hero.subtitle': 'NIBM Tower Cranes specializes in the sale of tower cranes, with full-service solutions from planning to ongoing support.',
+    'hero.subtitle': 'Chanan Trading specializes in the sale of tower cranes, with full-service solutions from planning to ongoing support.',
     'hero.cta1': 'Explore Our Tower Cranes',
     'hero.cta2': 'Request a Quote',
     'hero.scroll': 'Scroll Down',
@@ -343,7 +343,7 @@ export const translations: Record<Language, Record<string, string>> = {
     // Hero Section
     'hero.title1': 'Bouwprojecten naar',
     'hero.title2': 'Nieuwe Hoogten',
-    'hero.subtitle': 'NIBM Torenkranen is gespecialiseerd in de verkoop van torenkranen, met full-service oplossingen van planning tot doorlopende ondersteuning.',
+    'hero.subtitle': 'Chanan Trading is gespecialiseerd in de verkoop van torenkranen, met full-service oplossingen van planning tot doorlopende ondersteuning.',
     'hero.cta1': 'Bekijk Onze Torenkranen',
     'hero.cta2': 'Offerte Aanvragen',
     'hero.scroll': 'Scroll Omlaag',
@@ -652,7 +652,7 @@ export const translations: Record<Language, Record<string, string>> = {
     // Hero Section
     'hero.title1': 'Bauprojekte auf',
     'hero.title2': 'Neue Höhen',
-    'hero.subtitle': 'NIBM Turmkrane ist spezialisiert auf den Verkauf von Turmkranen, mit Full-Service-Lösungen von der Planung bis zur laufenden Unterstützung.',
+    'hero.subtitle': 'Chanan Trading ist spezialisiert auf den Verkauf von Turmkranen, mit Full-Service-Lösungen von der Planung bis zur laufenden Unterstützung.',
     'hero.cta1': 'Unsere Turmkrane Entdecken',
     'hero.cta2': 'Angebot Anfordern',
     'hero.scroll': 'Nach Unten Scrollen',
