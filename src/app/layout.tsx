@@ -44,7 +44,7 @@ function Preload() {
       <link rel="preload" href="/images/optimized/logo-blue.webp" as="image" type="image/webp" fetchPriority="high" />
       
       {/* Prefetch next likely images - assuming these are commonly accessed */}
-      <link rel="prefetch" href="/images/optimized/gidgehlen.webp" as="image" type="image/webp" />
+      <link rel="prefetch" href="/images/optimized/WhatsApp%20Image%202025-12-22%20at%2016.28.17.webp" as="image" type="image/webp" />
       <link rel="prefetch" href="/images/optimized/Potain-MDT-178_3W.webp" as="image" type="image/webp" />
       
       {/* DNS prefetch and preconnect */}

@@ -37,7 +37,7 @@ export default function AboutClient() {
     {
       name: 'CHANAN WOLOTZKY',
       position: t('about.team.ceo'),
-      image: '/images/optimized/gidgehlen.webp',
+      image: '/images/optimized/WhatsApp Image 2025-12-22 at 16.28.17.webp',
       bio: t('about.team.ceo.bio'),
     }
   ]
@@ -230,7 +230,7 @@ export default function AboutClient() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="relative min-h-[400px] flex items-center justify-center">
                   <Image
-                    src="/images/optimized/gidgehlen.webp"
+                    src="/images/optimized/WhatsApp Image 2025-12-22 at 16.28.17.webp"
                     alt="Team Member"
                     width={300}
                     height={300}
