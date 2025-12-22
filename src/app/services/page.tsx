@@ -30,7 +30,7 @@ export default function Services() {
       id: 'rent',
       title: t('services.rent.title') || 'Tower Crane Rental',
       description: t('services.rent.desc') || 'For shorter projects or when you\'re not sure which crane you need yet. Rent a tower crane that perfectly fits your project.',
-      image: '/images/optimized/cropped-Top-page2-potain6.webp',
+      image: '/images/potain.62cee7692598b.avif',
       features: [
         t('services.rent.feature1') || 'Short and long term rental possible',
         t('services.rent.feature2') || 'Fast delivery and installation',
@@ -53,7 +53,7 @@ export default function Services() {
       id: 'mounting',
       title: t('services.mounting.title') || 'Mounting & Installation',
       description: t('services.mounting.desc') || 'Our experienced installers ensure your tower crane is safely and correctly installed. We work quickly and efficiently so your project doesn\'t come to a standstill.',
-      image: '/images/optimized/sunset-TC-2.webp',
+      image: '/images/optimized/8e29c1f0b76a140fef41adb8099f60e7c49c22f52d.webp',
       features: [
         t('services.mounting.feature2') || 'Experienced installers with all certifications',
         t('services.mounting.feature3') || 'Fast and safe installation',
