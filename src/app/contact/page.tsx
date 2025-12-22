@@ -307,7 +307,7 @@ export default function Contact() {
                       </div>
                       <div className="flex-1 min-w-0">
                         <address className="not-italic text-neutral-700 leading-relaxed">
-                          NIBM Kranen BV<br />
+                          NIBM Tower Cranes BV<br />
                           Kruisweg 8<br />
                           6361 TG Nuth<br />
                           Nederland

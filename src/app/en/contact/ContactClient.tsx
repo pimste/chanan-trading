@@ -300,7 +300,7 @@ export default function ContactClient() {
                       </div>
                       <div className="flex-1 min-w-0">
                         <div className="text-neutral-700 leading-relaxed">
-                          <p className="font-medium mb-1">NIBM Kranen BV</p>
+                          <p className="font-medium mb-1">NIBM Tower Cranes BV</p>
                           <p>Kruisweg 8</p>
                           <p>6361 TG Nuth</p>
                           <p>Nederland</p>
