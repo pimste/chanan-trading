@@ -72,7 +72,7 @@ const nextConfig = {
     formats: ['image/avif', 'image/webp'],
     remotePatterns: [
       {
-        hostname: 'www.nibmvb.eu',
+        hostname: 'www.chanan-trading.com',
       },
       {
         protocol: 'https',
@@ -90,7 +90,7 @@ const nextConfig = {
     contentDispositionType: 'attachment',
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
     unoptimized: false, // Make sure optimization is enabled
-    domains: ['localhost', 'nibmvb.eu'],
+    domains: ['localhost', 'chanan-trading.com'],
   },
   compress: true,
   poweredByHeader: false,

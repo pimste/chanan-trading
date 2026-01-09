@@ -23,7 +23,7 @@ const blogPosts = [
 
 export default function sitemap(): MetadataRoute.Sitemap {
   try {
-    const baseUrl = 'https://www.nibmvb.eu';
+    const baseUrl = 'https://www.chanan-trading.com';
     
     // Define supported languages
     const languages = ['en', 'nl', 'de'];
@@ -97,7 +97,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Fallback: return at least the homepage if there's an error
     console.error('Sitemap generation error:', error);
     return [{
-      url: 'https://www.nibmvb.eu/en',
+      url: 'https://www.chanan-trading.com/en',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 1.0,

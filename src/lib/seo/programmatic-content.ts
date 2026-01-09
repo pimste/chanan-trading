@@ -161,7 +161,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
   return generatePageMetadata(
     baseMetadata,
     '/${targetLanguage}/${keywordData.category}/${slug}',
-    'https://www.nibmvb.eu',
+    'https://www.chanan-trading.com',
     ['en', 'nl', 'de']
   )
 }
@@ -481,14 +481,14 @@ ${template.sections.map(section => `
         "name": "NIBM Tower Cranes",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://www.nibmvb.eu/images/optimized/logo-blue.webp"
+          "url": "https://www.chanan-trading.com/images/optimized/logo-blue.webp"
         }
       },
       "datePublished": new Date().toISOString(),
       "dateModified": new Date().toISOString(),
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": `https://www.nibmvb.eu/${keywordData.targetLanguage}/${keywordData.category}/${this.generateSlug(keywordData.keyword)}`
+        "@id": `https://www.chanan-trading.com/${keywordData.targetLanguage}/${keywordData.category}/${this.generateSlug(keywordData.keyword)}`
       },
       "keywords": [keywordData.keyword, ...keywordData.relatedKeywords].join(', '),
       "about": {

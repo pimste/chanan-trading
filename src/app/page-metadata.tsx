@@ -13,7 +13,7 @@ import { Metadata } from 'next'
 export function generatePageMetadata(
   baseMetadata: Metadata = {},
   pathname: string = '',
-  siteUrl: string = 'https://www.nibmvb.eu',
+  siteUrl: string = 'https://www.chanan-trading.com',
   languages: string[] = ['en', 'nl', 'de']
 ): Metadata {
   // Extract the path segments

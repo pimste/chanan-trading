@@ -45,11 +45,11 @@ export function generateTowerCraneMetadata({ params }: { params: { slug: string 
     openGraph: {
       title: `${crane.name} | ${crane.status} ${crane.category === 'Sale' ? 'For Sale' : 'For Rent'}`,
       description: crane.description,
-      url: `https://www.nibmvb.eu/towercranes/${crane.slug}`,
+      url: `https://www.chanan-trading.com/towercranes/${crane.slug}`,
       type: 'website',
       images: [
         {
-          url: `https://www.nibmvb.eu${crane.image}`,
+          url: `https://www.chanan-trading.com${crane.image}`,
           width: 1200,
           height: 630,
           alt: crane.name
@@ -62,7 +62,7 @@ export function generateTowerCraneMetadata({ params }: { params: { slug: string 
   return generatePageMetadata(
     baseMetadata,
     `/towercranes/${crane.slug}`,
-    'https://www.nibmvb.eu',
+    'https://www.chanan-trading.com',
     ['en', 'nl', 'de']
   )
 } 

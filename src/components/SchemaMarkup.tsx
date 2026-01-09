@@ -17,14 +17,14 @@ interface SchemaMarkupProps {
 
 export function SchemaMarkup({
   companyName = 'Chanan Trading',
-  companyLogo = 'https://www.nibmvb.eu/images/optimized/logo-blue.webp',
+  companyLogo = 'https://www.chanan-trading.com/images/optimized/logo-blue.webp',
   streetAddress = 'Kruisweg 8',
   addressLocality = 'Nuth',
   postalCode = '6361 TG',
   addressCountry = 'Netherlands',
   telephone = '+31 6 53206004',
   email = 'gid.gehlen@nibmtowercranes.com',
-  siteUrl = 'https://www.nibmvb.eu'
+  siteUrl = 'https://www.chanan-trading.com'
 }: SchemaMarkupProps) {
   const pathname = usePathname() || ''
   

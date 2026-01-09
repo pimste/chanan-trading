@@ -16,7 +16,7 @@ import { generatePageMetadata } from '@/app/page-metadata'
  */
 export function useClientMetadata(
   baseMetadata: Metadata = {},
-  siteUrl: string = 'https://www.nibmvb.eu',
+  siteUrl: string = 'https://www.chanan-trading.com',
   languages: string[] = ['en', 'nl', 'de']
 ): Metadata {
   const pathname = usePathname() || ''

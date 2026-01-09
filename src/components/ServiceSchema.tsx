@@ -10,7 +10,7 @@ export function ServiceSchema() {
     "provider": {
       "@type": "Organization",
       "name": "Chanan Trading",
-      "url": "https://www.nibmvb.eu",
+      "url": "https://www.chanan-trading.com",
       "telephone": "+31 6 53206004",
       "email": "gid.gehlen@nibmtowercranes.com"
     },

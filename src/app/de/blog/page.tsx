@@ -38,10 +38,10 @@ export const generateMetadata = async (): Promise<Metadata> => {
     openGraph: {
       title: 'Turmkran Blog | Brancheneinblicke & Leitfäden | Chanan Trading',
       description: 'Fachkundige Einblicke, Leitfäden und Branchennachrichten über Turmkrane. Erfahren Sie mehr über Spezifikationen, Sicherheit, Wartung und Best Practices.',
-      url: 'https://www.nibmvb.eu/de/blog',
+      url: 'https://www.chanan-trading.com/de/blog',
       images: [
         {
-          url: 'https://www.nibmvb.eu/images/optimized/cropped-Top-page2-potain6.webp',
+          url: 'https://www.chanan-trading.com/images/optimized/cropped-Top-page2-potain6.webp',
           width: 1200,
           height: 630,
           alt: 'Chanan Trading Blog - Brancheneinblicke',
@@ -52,14 +52,14 @@ export const generateMetadata = async (): Promise<Metadata> => {
       card: 'summary_large_image',
       title: 'Turmkran Blog | Brancheneinblicke & Leitfäden | Chanan Trading',
       description: 'Fachkundige Einblicke, Leitfäden und Branchennachrichten über Turmkrane.',
-      images: ['https://www.nibmvb.eu/images/optimized/cropped-Top-page2-potain6.webp'],
+      images: ['https://www.chanan-trading.com/images/optimized/cropped-Top-page2-potain6.webp'],
     },
   }
 
   return generatePageMetadata(
     baseMetadata,
     '/de/blog',
-    'https://www.nibmvb.eu',
+    'https://www.chanan-trading.com',
     ['en', 'nl', 'de']
   )
 }

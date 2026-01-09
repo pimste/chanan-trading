@@ -11,10 +11,10 @@ export const generateMetadata = async (): Promise<Metadata> => {
     openGraph: {
       title: 'Turmkran Katalog | Potain Modelle zum Verkauf & Vermietung | Chanan Trading',
       description: 'Entdecken Sie unsere Auswahl an Premium-Potain-Turmkranen mit detaillierten Spezifikationen, Kapazitäten und Verfügbarkeitsstatus. Professionelle Turmkranlösungen für Ihre Bauprojekte.',
-      url: 'https://www.nibmvb.eu/de/towercranes',
+      url: 'https://www.chanan-trading.com/de/towercranes',
       images: [
         {
-          url: 'https://www.nibmvb.eu/images/optimized/cropped-Top-page2-potain6.webp',
+          url: 'https://www.chanan-trading.com/images/optimized/cropped-Top-page2-potain6.webp',
           width: 1200,
           height: 630,
           alt: 'Chanan Trading Turmkran Katalog - Potain Modelle',
@@ -25,7 +25,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
       card: 'summary_large_image',
       title: 'Turmkran Katalog | Potain Modelle zum Verkauf & Vermietung | Chanan Trading',
       description: 'Entdecken Sie unsere Auswahl an Premium-Potain-Turmkranen mit detaillierten Spezifikationen und Verfügbarkeitsstatus.',
-      images: ['https://www.nibmvb.eu/images/optimized/cropped-Top-page2-potain6.webp'],
+      images: ['https://www.chanan-trading.com/images/optimized/cropped-Top-page2-potain6.webp'],
     },
   }
 
@@ -33,7 +33,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
   return generatePageMetadata(
     baseMetadata,
     '/de/towercranes',
-    'https://www.nibmvb.eu',
+    'https://www.chanan-trading.com',
     ['en', 'nl', 'de']
   )
 }

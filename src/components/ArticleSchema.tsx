@@ -23,13 +23,13 @@ export function ArticleSchema({
   description,
   date,
   url,
-  image = 'https://www.nibmvb.eu/images/optimized/cropped-Top-page2-potain6.webp',
+  image = 'https://www.chanan-trading.com/images/optimized/cropped-Top-page2-potain6.webp',
   author = {
     name: 'Chanan Trading',
   },
   publisher = {
     name: 'Chanan Trading',
-    logo: 'https://www.nibmvb.eu/images/optimized/logo-blue.webp',
+    logo: 'https://www.chanan-trading.com/images/optimized/logo-blue.webp',
   },
 }: ArticleSchemaProps) {
   const articleSchema = {

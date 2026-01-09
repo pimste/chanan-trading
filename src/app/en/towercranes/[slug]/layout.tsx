@@ -144,10 +144,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: `${crane.name} - ${crane.type} Tower Crane ${crane.category === 'Sale' ? 'For Sale' : 'For Rent'} | Chanan Trading`,
       description: fullDescription,
-      url: `https://www.nibmvb.eu/en/towercranes/${crane.slug}`,
+      url: `https://www.chanan-trading.com/en/towercranes/${crane.slug}`,
       type: 'product',
       images: [{
-        url: `https://www.nibmvb.eu${crane.image}`,
+        url: `https://www.chanan-trading.com${crane.image}`,
         width: 1200,
         height: 630,
         alt: `${crane.name} - ${crane.type} Tower Crane`,
@@ -157,7 +157,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: 'summary_large_image',
       title: `${crane.name} - ${crane.type} Tower Crane ${crane.category === 'Sale' ? 'For Sale' : 'For Rent'}`,
       description: crane.description,
-      images: [`https://www.nibmvb.eu${crane.image}`],
+      images: [`https://www.chanan-trading.com${crane.image}`],
     },
   }
 }

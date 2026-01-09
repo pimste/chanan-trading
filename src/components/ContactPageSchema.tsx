@@ -15,7 +15,7 @@ interface ContactPageSchemaProps {
 }
 
 export function ContactPageSchema({
-  siteUrl = 'https://www.nibmvb.eu',
+  siteUrl = 'https://www.chanan-trading.com',
   companyName = 'Chanan Trading',
   streetAddress = 'Kruisweg 8',
   addressLocality = 'Nuth',

@@ -31,7 +31,7 @@ export default function robots(): MetadataRoute.Robots {
         ],
       },
     ],
-    sitemap: 'https://www.nibmvb.eu/sitemap.xml',
-    host: 'https://www.nibmvb.eu',
+    sitemap: 'https://www.chanan-trading.com/sitemap.xml',
+    host: 'https://www.chanan-trading.com',
   };
 } 

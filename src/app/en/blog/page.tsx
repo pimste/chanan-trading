@@ -38,10 +38,10 @@ export const generateMetadata = async (): Promise<Metadata> => {
     openGraph: {
       title: 'Tower Crane Blog | Industry Insights & Guides | Chanan Trading',
       description: 'Expert insights, guides, and industry news about tower cranes. Learn about specifications, safety, maintenance, and best practices.',
-      url: 'https://www.nibmvb.eu/en/blog',
+      url: 'https://www.chanan-trading.com/en/blog',
       images: [
         {
-          url: 'https://www.nibmvb.eu/images/optimized/cropped-Top-page2-potain6.webp',
+          url: 'https://www.chanan-trading.com/images/optimized/cropped-Top-page2-potain6.webp',
           width: 1200,
           height: 630,
           alt: 'Chanan Trading Blog - Industry Insights',
@@ -52,14 +52,14 @@ export const generateMetadata = async (): Promise<Metadata> => {
       card: 'summary_large_image',
       title: 'Tower Crane Blog | Industry Insights & Guides | Chanan Trading',
       description: 'Expert insights, guides, and industry news about tower cranes.',
-      images: ['https://www.nibmvb.eu/images/optimized/cropped-Top-page2-potain6.webp'],
+      images: ['https://www.chanan-trading.com/images/optimized/cropped-Top-page2-potain6.webp'],
     },
   }
 
   return generatePageMetadata(
     baseMetadata,
     '/en/blog',
-    'https://www.nibmvb.eu',
+    'https://www.chanan-trading.com',
     ['en', 'nl', 'de']
   )
 }

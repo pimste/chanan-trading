@@ -12,7 +12,7 @@ export function SEOProvider() {
 
   // Set the full URL on the client side
   useEffect(() => {
-    setUrl(`https://www.nibmvb.eu${pathname}`)
+    setUrl(`https://www.chanan-trading.com${pathname}`)
   }, [pathname])
 
   // Structured data for Organization
@@ -20,10 +20,10 @@ export function SEOProvider() {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Chanan Trading",
-    "url": "https://www.nibmvb.eu/",
+    "url": "https://www.chanan-trading.com/",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://www.nibmvb.eu/images/optimized/logo-blue.webp",
+      "url": "https://www.chanan-trading.com/images/optimized/logo-blue.webp",
       "width": 160,
       "height": 50
     },
@@ -52,12 +52,12 @@ export function SEOProvider() {
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "url": "https://www.nibmvb.eu/",
+    "url": "https://www.chanan-trading.com/",
     "name": "Chanan Trading",
     "description": "Professional tower crane sales, rental, and services across Europe",
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://www.nibmvb.eu/search?q={search_term_string}",
+      "target": "https://www.chanan-trading.com/search?q={search_term_string}",
       "query-input": "required name=search_term_string"
     }
   };
@@ -76,7 +76,7 @@ export function SEOProvider() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Chanan Trading",
-    "image": "https://www.nibmvb.eu/images/optimized/cropped-Top-page2-potain6.webp",
+    "image": "https://www.chanan-trading.com/images/optimized/cropped-Top-page2-potain6.webp",
     "priceRange": "€€€",
     "telephone": "+31 6 53206004",
     "email": "gid.gehlen@nibmtowercranes.com",
@@ -235,7 +235,7 @@ function generateBreadcrumbs(pathname) {
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": `https://www.nibmvb.eu/${language}`
+      "item": `https://www.chanan-trading.com/${language}`
     }
   ];
 
@@ -257,7 +257,7 @@ function generateBreadcrumbs(pathname) {
       "@type": "ListItem",
       "position": index + 2, // +2 because we start at 1 and already have the home item
       "name": name,
-      "item": `https://www.nibmvb.eu${accumPath}`
+      "item": `https://www.chanan-trading.com${accumPath}`
     });
   });
 

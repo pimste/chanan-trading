@@ -13,10 +13,10 @@ export const generateMetadata = async (): Promise<Metadata> => {
     openGraph: {
       title: 'Chanan Trading | Professional Tower Crane Solutions',
       description: 'Expert tower crane sales, rental, installation, and maintenance services. Professional Potain tower crane solutions for your construction projects.',
-      url: 'https://www.nibmvb.eu/en',
+      url: 'https://www.chanan-trading.com/en',
       images: [
         {
-          url: 'https://www.nibmvb.eu/images/optimized/cropped-Top-page2-potain6.webp',
+          url: 'https://www.chanan-trading.com/images/optimized/cropped-Top-page2-potain6.webp',
           width: 1200,
           height: 630,
           alt: 'Chanan Trading - Professional Tower Crane Solutions',
@@ -27,7 +27,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
       card: 'summary_large_image',
       title: 'Chanan Trading | Professional Tower Crane Solutions',
       description: 'Expert tower crane sales, rental, installation, and maintenance services across Europe.',
-      images: ['https://www.nibmvb.eu/images/optimized/cropped-Top-page2-potain6.webp'],
+      images: ['https://www.chanan-trading.com/images/optimized/cropped-Top-page2-potain6.webp'],
     },
   }
 
@@ -35,7 +35,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
   return generatePageMetadata(
     baseMetadata,
     '/en',
-    'https://www.nibmvb.eu',
+    'https://www.chanan-trading.com',
     ['en', 'nl', 'de']
   )
 }

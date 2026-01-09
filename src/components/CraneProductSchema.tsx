@@ -21,7 +21,7 @@ interface CraneProductSchemaProps {
 }
 
 export function CraneProductSchema({ crane }: CraneProductSchemaProps) {
-  const siteUrl = 'https://www.nibmvb.eu'
+  const siteUrl = 'https://www.chanan-trading.com'
   const craneUrl = `${siteUrl}/en/towercranes/${crane.slug}`
   
   const schemaData = {

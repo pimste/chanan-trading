@@ -7,7 +7,7 @@ interface CanonicalTagsProps {
   siteUrl?: string
 }
 
-export function CanonicalTags({ siteUrl = 'https://www.nibmvb.eu' }: CanonicalTagsProps) {
+export function CanonicalTags({ siteUrl = 'https://www.chanan-trading.com' }: CanonicalTagsProps) {
   const pathname = usePathname() || ''
   
   // Extract the path segments

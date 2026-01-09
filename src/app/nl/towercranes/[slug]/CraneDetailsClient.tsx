@@ -157,7 +157,7 @@ export default function CraneDetailsClient() {
   }
 
   // Add schema.org structured data for this specific crane
-  const siteUrl = 'https://www.nibmvb.eu'
+  const siteUrl = 'https://www.chanan-trading.com'
   const craneUrl = `${siteUrl}/nl/towercranes/${crane.slug}`
   const manufacturer = crane.specifications?.manufacturer || 'Potain'
   const model = crane.specifications?.model || crane.name

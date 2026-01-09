@@ -711,12 +711,12 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     openGraph: {
       title: post.title,
       description: post.description,
-      url: `https://www.nibmvb.eu/en/blog/${params.slug}`,
+      url: `https://www.chanan-trading.com/en/blog/${params.slug}`,
       type: 'article',
       publishedTime: post.date,
       images: [
         {
-          url: 'https://www.nibmvb.eu/images/optimized/cropped-Top-page2-potain6.webp',
+          url: 'https://www.chanan-trading.com/images/optimized/cropped-Top-page2-potain6.webp',
           width: 1200,
           height: 630,
           alt: post.title,
@@ -727,14 +727,14 @@ export async function generateMetadata({ params }: { params: { slug: string } })
       card: 'summary_large_image',
       title: post.title,
       description: post.description,
-      images: ['https://www.nibmvb.eu/images/optimized/cropped-Top-page2-potain6.webp'],
+      images: ['https://www.chanan-trading.com/images/optimized/cropped-Top-page2-potain6.webp'],
     },
   }
 
   return generatePageMetadata(
     baseMetadata,
     `/en/blog/${params.slug}`,
-    'https://www.nibmvb.eu',
+    'https://www.chanan-trading.com',
     ['en', 'nl', 'de']
   )
 }
@@ -758,7 +758,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
         title={post.title}
         description={post.description}
         date={post.date}
-        url={`https://www.nibmvb.eu/en/blog/${params.slug}`}
+        url={`https://www.chanan-trading.com/en/blog/${params.slug}`}
       />
       <article className="bg-white py-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">

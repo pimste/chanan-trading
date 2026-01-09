@@ -66,7 +66,7 @@ const SEOOptimizer: React.FC<SEOOptimizerProps> = ({
       }
     ],
     "sameAs": [
-      "https://www.nibmvb.eu",
+      "https://www.chanan-trading.com",
       "https://www.linkedin.com/company/nibm-tower-cranes"
     ],
     "areaServed": [

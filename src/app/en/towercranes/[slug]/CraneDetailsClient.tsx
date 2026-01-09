@@ -181,7 +181,7 @@ export default function CraneDetailsClient({ slug }: CraneDetailsClientProps) {
   }
 
   // SEO and schema variables
-  const siteUrl = 'https://www.nibmvb.eu'
+  const siteUrl = 'https://www.chanan-trading.com'
   const manufacturer = crane.specifications?.manufacturer || 'Potain'
   const model = crane.specifications?.model || crane.name
   const availability = crane.status === 'available' ? 'InStock' : 'OutOfStock'

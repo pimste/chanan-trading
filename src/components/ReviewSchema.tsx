@@ -42,7 +42,7 @@ export function ReviewSchema({
   const reviewSchema = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
-    '@id': 'https://www.nibmvb.eu/#business',
+    '@id': 'https://www.chanan-trading.com/#business',
     name: 'Chanan Trading',
     aggregateRating: aggregateRating,
     ...(reviews.length > 0 && {

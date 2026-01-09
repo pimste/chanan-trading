@@ -9,10 +9,10 @@ export async function generateMetadata(): Promise<Metadata> {
     openGraph: {
       title: 'Over Chanan Trading - Uw Betrouwbare Partner Sinds 2015',
       description: 'Uw betrouwbare partner voor verkoop en diensten van torenkranen sinds 1996. Deskundige oplossingen in heel Europa met kantoren in Nederland en Israël.',
-      url: 'https://www.nibmvb.eu/nl/about',
+      url: 'https://www.chanan-trading.com/nl/about',
       images: [
         {
-          url: 'https://www.nibmvb.eu/images/optimized/cropped-Top-page2-potain6.webp',
+          url: 'https://www.chanan-trading.com/images/optimized/cropped-Top-page2-potain6.webp',
           width: 1200,
           height: 630,
           alt: 'Chanan Trading - Over Ons'
@@ -23,7 +23,7 @@ export async function generateMetadata(): Promise<Metadata> {
       card: 'summary_large_image',
       title: 'Over Chanan Trading - Uw Betrouwbare Partner Sinds 2015',
       description: 'Uw betrouwbare partner voor verkoop en diensten van torenkranen sinds 1996. Deskundige oplossingen in heel Europa.',
-      images: ['https://www.nibmvb.eu/images/optimized/cropped-Top-page2-potain6.webp'],
+      images: ['https://www.chanan-trading.com/images/optimized/cropped-Top-page2-potain6.webp'],
     },
   }
 
@@ -31,7 +31,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return generatePageMetadata(
     baseMetadata,
     '/nl/about',
-    'https://www.nibmvb.eu',
+    'https://www.chanan-trading.com',
     ['en', 'nl', 'de']
   )
 } 

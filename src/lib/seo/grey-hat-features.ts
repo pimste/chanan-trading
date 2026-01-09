@@ -480,7 +480,7 @@ export class GreyHatSEOEngine {
     return {
       enabled: false,
       brandName: 'NIBM Tower Cranes',
-      website: 'https://www.nibmvb.eu',
+      website: 'https://www.chanan-trading.com',
       keywords: ['tower cranes', 'construction', 'NIBM'],
       exifData: {
         title: 'Tower Crane Equipment - NIBM',

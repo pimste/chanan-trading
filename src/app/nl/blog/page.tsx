@@ -38,10 +38,10 @@ export const generateMetadata = async (): Promise<Metadata> => {
     openGraph: {
       title: 'Torenkraan Blog | Branche Inzichten & Gidsen | Chanan Trading',
       description: 'Deskundige inzichten, gidsen en branchenieuws over torenkranen. Leer over specificaties, veiligheid, onderhoud en best practices.',
-      url: 'https://www.nibmvb.eu/nl/blog',
+      url: 'https://www.chanan-trading.com/nl/blog',
       images: [
         {
-          url: 'https://www.nibmvb.eu/images/optimized/cropped-Top-page2-potain6.webp',
+          url: 'https://www.chanan-trading.com/images/optimized/cropped-Top-page2-potain6.webp',
           width: 1200,
           height: 630,
           alt: 'Chanan Trading Blog - Branche Inzichten',
@@ -52,14 +52,14 @@ export const generateMetadata = async (): Promise<Metadata> => {
       card: 'summary_large_image',
       title: 'Torenkraan Blog | Branche Inzichten & Gidsen | Chanan Trading',
       description: 'Deskundige inzichten, gidsen en branchenieuws over torenkranen.',
-      images: ['https://www.nibmvb.eu/images/optimized/cropped-Top-page2-potain6.webp'],
+      images: ['https://www.chanan-trading.com/images/optimized/cropped-Top-page2-potain6.webp'],
     },
   }
 
   return generatePageMetadata(
     baseMetadata,
     '/nl/blog',
-    'https://www.nibmvb.eu',
+    'https://www.chanan-trading.com',
     ['en', 'nl', 'de']
   )
 }

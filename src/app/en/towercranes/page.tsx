@@ -11,10 +11,10 @@ export const generateMetadata = async (): Promise<Metadata> => {
     openGraph: {
       title: 'Tower Cranes Catalog | Potain Models for Sale & Rental | Chanan Trading',
       description: 'Explore our selection of premium Potain tower cranes with detailed specifications, capacities, and availability status. Professional tower crane solutions for your construction projects.',
-      url: 'https://www.nibmvb.eu/en/towercranes',
+      url: 'https://www.chanan-trading.com/en/towercranes',
       images: [
         {
-          url: 'https://www.nibmvb.eu/images/optimized/cropped-Top-page2-potain6.webp',
+          url: 'https://www.chanan-trading.com/images/optimized/cropped-Top-page2-potain6.webp',
           width: 1200,
           height: 630,
           alt: 'Chanan Trading Tower Cranes Catalog - Potain Models',
@@ -25,7 +25,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
       card: 'summary_large_image',
       title: 'Tower Cranes Catalog | Potain Models for Sale & Rental | Chanan Trading',
       description: 'Explore our selection of premium Potain tower cranes with detailed specifications and availability status.',
-      images: ['https://www.nibmvb.eu/images/optimized/cropped-Top-page2-potain6.webp'],
+      images: ['https://www.chanan-trading.com/images/optimized/cropped-Top-page2-potain6.webp'],
     },
   }
 
@@ -33,7 +33,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
   return generatePageMetadata(
     baseMetadata,
     '/en/towercranes',
-    'https://www.nibmvb.eu',
+    'https://www.chanan-trading.com',
     ['en', 'nl', 'de']
   )
 }

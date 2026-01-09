@@ -1,5 +1,5 @@
-// Service Worker for NIBM Tower Cranes
-const CACHE_NAME = 'nibm-cache-v1';
+// Service Worker for Chanan Trading
+const CACHE_NAME = 'chanan-trading-cache-v1';
 const urlsToCache = [
   '/',
   '/index.html',

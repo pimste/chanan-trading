@@ -9,10 +9,10 @@ const baseMetadata: Metadata = {
   openGraph: {
     title: 'Contact Chanan Trading - Specialist in Torenkranen',
     description: 'Contacteer onze torenkraan specialisten voor verkoop, verhuur, installatie en onderhoudsdiensten. Kantoren in Nederland en Israël.',
-    url: 'https://www.nibmvb.eu/nl/contact',
+    url: 'https://www.chanan-trading.com/nl/contact',
     images: [
       {
-        url: 'https://www.nibmvb.eu/images/optimized/cropped-Top-page2-potain6.webp',
+        url: 'https://www.chanan-trading.com/images/optimized/cropped-Top-page2-potain6.webp',
         width: 1200,
         height: 630,
         alt: 'Contact Chanan Trading - Professionele Torenkraan Diensten',
@@ -23,7 +23,7 @@ const baseMetadata: Metadata = {
     card: 'summary_large_image',
     title: 'Contact Chanan Trading - Specialist in Torenkranen',
     description: 'Neem contact op met onze torenkraan specialisten voor professionele verkoop, verhuur en onderhoudsdiensten.',
-    images: ['https://www.nibmvb.eu/images/optimized/cropped-Top-page2-potain6.webp'],
+    images: ['https://www.chanan-trading.com/images/optimized/cropped-Top-page2-potain6.webp'],
   },
 }
 
@@ -33,7 +33,7 @@ export const generateMetadata = async () => {
   return generatePageMetadata(
     baseMetadata,
     '/nl/contact',
-    'https://www.nibmvb.eu',
+    'https://www.chanan-trading.com',
     ['en', 'nl', 'de']
   )
 }

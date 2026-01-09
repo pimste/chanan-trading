@@ -20,7 +20,7 @@ interface TowerCraneSchemaProps {
 }
 
 export function TowerCraneSchema({
-  siteUrl = 'https://www.nibmvb.eu',
+  siteUrl = 'https://www.chanan-trading.com',
   companyName = 'Chanan Trading',
   name,
   description,

@@ -18,7 +18,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return generatePageMetadata(
     baseMetadata,
     '/de/cookies',
-    'https://www.nibmvb.eu',
+    'https://www.chanan-trading.com',
     ['en', 'nl', 'de']
   )
 }
