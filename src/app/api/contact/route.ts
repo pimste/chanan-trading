@@ -176,12 +176,18 @@ export async function POST(request: Request) {
       </html>
     `;
 
+    const fromEmail = process.env.RESEND_FROM_EMAIL || 'noreply@chanan-trading.com';
+    const toEmail = process.env.RESEND_TO_EMAIL || 'gid.gehlen@nibmtowercranes.com';
+    
     console.log('Sending email with Resend...');
+    console.log('FROM:', fromEmail);
+    console.log('TO:', toEmail);
+    console.log('Reply-To:', sanitizedData.email);
     
     // Send email using Resend
     const { data, error } = await resend.emails.send({
-      from: `Chanan Trading <${process.env.RESEND_FROM_EMAIL || 'noreply@chanan-trading.com'}>`,
-      to: [process.env.RESEND_TO_EMAIL || 'gid.gehlen@nibmtowercranes.com'],
+      from: `Chanan Trading <${fromEmail}>`,
+      to: [toEmail],
       subject: `🏗️ ${sanitizedData.inquiryType}: ${sanitizedData.subject || 'Website Contact'} - ${sanitizedData.name}`,
       html: htmlContent,
       // Add reply-to so you can reply directly to the customer
@@ -190,6 +196,9 @@ export async function POST(request: Request) {
 
     if (error) {
       console.error('Resend API error:', error);
+      console.error('Error details:', JSON.stringify(error, null, 2));
+      console.error('Using FROM email:', process.env.RESEND_FROM_EMAIL || 'noreply@chanan-trading.com');
+      console.error('Using TO email:', process.env.RESEND_TO_EMAIL || 'gid.gehlen@nibmtowercranes.com');
       return NextResponse.json(
         { error: 'Failed to send email. Please try again later.' },
         { status: 500 }

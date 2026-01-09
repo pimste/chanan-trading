@@ -75,7 +75,7 @@ export default function ServicesClient() {
       titleFallback: 'Equipment Assessment & Evaluation',
       descKey: 'services.rent.desc',
       descFallback: 'Comprehensive technical inspections of crane condition and construction site evaluations.',
-      image: '/images/potain.62cee7692598b.avif',
+      image: '/images/optimized/sunset-TC.webp',
       featureKeys: ['services.rent.feature1', 'services.rent.feature2', 'services.rent.feature3', 'services.rent.feature4', 'services.rent.feature5'],
       featureFallbacks: ['Detailed equipment condition assessments', 'Construction site evaluation for optimal crane selection', 'Safety compliance and operational assessments', 'Detailed reporting and recommendations', 'Request a customized quote']
     },
@@ -93,7 +93,7 @@ export default function ServicesClient() {
       titleFallback: 'Mounting & Installation',
       descKey: 'services.mounting.desc',
       descFallback: 'We have professional assemblers for assembly and disassembly.',
-      image: '/images/optimized/8e29c1f0b76a140fef41adb8099f60e7c49c22f52d.webp',
+      image: '/images/optimized/sunset-TC-2.webp',
       featureKeys: ['services.mounting.feature2', 'services.mounting.feature3', 'services.mounting.feature4', 'services.mounting.feature5'],
       featureFallbacks: ['Compliance with all safety regulations', 'Inspection before commissioning', 'Efficient dismantling services', 'Comprehensive documentation']
     }
@@ -140,7 +140,7 @@ export default function ServicesClient() {
                 {t('services.overview.desc')}
               </p>,
               <p className="text-lg text-neutral-700">
-                Chanan Trading offers a full range of services to meet all your tower crane needs. Our integrated approach ensures that every aspect of your crane requirements is handled with expertise and attention to detail.
+                NIBM Tower Cranes offers a full range of services to meet all your tower crane needs. Our integrated approach ensures that every aspect of your crane requirements is handled with expertise and attention to detail.
               </p>
             )}
           </div>

@@ -44,7 +44,7 @@ function Preload() {
       <link rel="preload" href="/images/optimized/logo-blue.webp" as="image" type="image/webp" fetchPriority="high" />
       
       {/* Prefetch next likely images - assuming these are commonly accessed */}
-      <link rel="prefetch" href="/images/optimized/WhatsApp%20Image%202025-12-22%20at%2016.28.17.webp" as="image" type="image/webp" />
+      <link rel="prefetch" href="/images/IMG_4839.JPG" as="image" type="image/jpeg" />
       <link rel="prefetch" href="/images/optimized/Potain-MDT-178_3W.webp" as="image" type="image/webp" />
       
       {/* DNS prefetch and preconnect */}
@@ -215,18 +215,18 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.nibmvb.eu'),
   title: {
-    default: 'Chanan Trading | Professional Crane Solutions',
-    template: '%s | Chanan Trading',
+    default: 'NIBM Tower Cranes | Professional Crane Solutions',
+    template: '%s | NIBM Tower Cranes',
   },
   description:
-    'Chanan Trading specializes in professional tower crane sales, rental, installation, and maintenance services. Expert solutions for construction projects with offices in Netherlands and Israel. Trusted partner since 2015.',
+    'NIBM Tower Cranes specializes in professional tower crane sales, rental, installation, and maintenance services across Europe. Expert solutions for construction projects with offices in Netherlands and Israel. Trusted partner since 1996.',
   keywords: [
     'tower cranes',
     'crane rental',
     'crane sales',
     'crane maintenance',
     'construction equipment',
-    'Chanan Trading tower cranes',
+    'NIBM tower cranes',
     'crane services',
     'crane assembly',
     'crane disassembly',
@@ -248,9 +248,9 @@ export const metadata: Metadata = {
     'tower crane rental Germany',
     'tower crane rental Belgium',
   ],
-  authors: [{ name: 'Chanan Trading' }],
-  creator: 'Chanan Trading',
-  publisher: 'Chanan Trading',
+  authors: [{ name: 'NIBM Tower Cranes' }],
+  creator: 'NIBM Tower Cranes',
+  publisher: 'NIBM Tower Cranes',
   formatDetection: {
     email: false,
     address: false,
@@ -276,30 +276,30 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: '/images/Chanan_Trading_logo_dark.png',
-    shortcut: '/images/Chanan_Trading_logo_dark.png',
-    apple: '/images/Chanan_Trading_logo_dark.png',
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+    apple: '/favicon.ico',
   },
   openGraph: {
     type: 'website',
     locale: 'en_US',
     alternateLocale: ['nl_NL', 'de_DE'],
     url: 'https://www.nibmvb.eu/',
-    siteName: 'Chanan Trading',
-    title: 'Chanan Trading | Professional Tower Crane Solutions',
+    siteName: 'NIBM Tower Cranes',
+    title: 'NIBM Tower Cranes | Professional Tower Crane Solutions',
     description: 'Expert tower crane sales and services for construction projects of any scale. Full-service support from planning to dismantling.',
     images: [{
       url: '/images/optimized/cropped-Top-page2-potain6.webp',
       width: 1200,
       height: 630,
-      alt: 'Chanan Trading - Professional Tower Crane Solutions',
+      alt: 'NIBM Tower Cranes - Professional Tower Crane Solutions',
     }],
   },
   twitter: {
     card: 'summary_large_image',
     site: '@nibmvb',
     creator: '@nibmvb',
-    title: 'Chanan Trading | Professional Tower Crane Solutions',
+    title: 'NIBM Tower Cranes | Professional Tower Crane Solutions',
             description: 'Expert tower crane sales and services for construction projects of any scale. Full-service support from planning to dismantling.',
     images: ['/images/optimized/cropped-Top-page2-potain6.webp'],
   },

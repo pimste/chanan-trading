@@ -7,11 +7,7 @@ export async function GET() {
   try {
     const cranes = await prisma.crane.findMany({
       where: {
-        isAvailable: true, // Only show cranes that are available for public viewing
-        OR: [
-          { year: { gte: 2016 } }, // Show cranes from 2016 or later
-          { year: null } // Also show cranes without a year specified
-        ]
+        isAvailable: true // Only show cranes that are available for public viewing
       },
       orderBy: {
         createdAt: 'desc'

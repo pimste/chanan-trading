@@ -229,6 +229,64 @@ export default function ContactClient() {
                 {t('contact.info.title')}
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                {/* Office Information Netherlands */}
+                <div className="bg-white p-8 rounded-lg border border-neutral-200 hover:shadow-md transition-shadow">
+                  <h3 className="text-lg font-semibold text-neutral-900 mb-4">
+                    Kantoorinformatie Nederland
+                  </h3>
+                  <div className="space-y-4">
+                    {/* Address */}
+                    <div className="flex items-start space-x-3">
+                      <div className="bg-primary rounded-full p-2 text-white flex-shrink-0 mt-1">
+                        <FaMapMarkerAlt className="h-4 w-4" />
+                      </div>
+                      <div className="flex-1 min-w-0">
+                        <div className="text-neutral-700 leading-relaxed">
+                          <p className="font-medium mb-1">NIBM Kranen BV</p>
+                          <p>Kruisweg 8</p>
+                          <p>6361 TG Nuth</p>
+                          <p>Nederland</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Phone */}
+                    <div className="flex items-start space-x-3">
+                      <div className="bg-primary rounded-full p-2 text-white flex-shrink-0 mt-1">
+                        <FaPhone className="h-4 w-4" />
+                      </div>
+                      <div className="flex-1 min-w-0">
+                        <div className="flex items-center">
+                          <ClientOnly>
+                            <ProtectedContact 
+                              type="phone" 
+                              value="+31653206004"
+                              className="text-neutral-700 hover:text-primary transition-colors cursor-pointer"
+                            />
+                          </ClientOnly>
+                          <span className="text-neutral-600 text-sm ml-2">(Gid)</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Email */}
+                    <div className="flex items-start space-x-3">
+                      <div className="bg-primary rounded-full p-2 text-white flex-shrink-0 mt-1">
+                        <FaEnvelope className="h-4 w-4" />
+                      </div>
+                      <div className="flex-1 min-w-0">
+                        <ClientOnly>
+                          <ProtectedContact 
+                            type="email" 
+                            value="gid.gehlen@nibmtowercranes.com"
+                            className="text-neutral-700 hover:text-primary transition-colors cursor-pointer text-xs"
+                          />
+                        </ClientOnly>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
                 {/* Office Information Israel */}
                 <div className="bg-white p-8 rounded-lg border border-neutral-200 hover:shadow-md transition-shadow">
                   <h3 className="text-lg font-semibold text-neutral-900 mb-4">
@@ -286,64 +344,6 @@ export default function ContactClient() {
                     </div>
                   </div>
                 </div>
-
-                {/* Office Information Netherlands */}
-                <div className="bg-white p-8 rounded-lg border border-neutral-200 hover:shadow-md transition-shadow">
-                  <h3 className="text-lg font-semibold text-neutral-900 mb-4">
-                    Kantoorinformatie Nederland
-                  </h3>
-                  <div className="space-y-4">
-                    {/* Address */}
-                    <div className="flex items-start space-x-3">
-                      <div className="bg-primary rounded-full p-2 text-white flex-shrink-0 mt-1">
-                        <FaMapMarkerAlt className="h-4 w-4" />
-                      </div>
-                      <div className="flex-1 min-w-0">
-                        <div className="text-neutral-700 leading-relaxed">
-                          <p className="font-medium mb-1">NIBM Tower Cranes BV</p>
-                          <p>Kruisweg 8</p>
-                          <p>6361 TG Nuth</p>
-                          <p>Nederland</p>
-                        </div>
-                      </div>
-                    </div>
-
-                    {/* Phone */}
-                    <div className="flex items-start space-x-3">
-                      <div className="bg-primary rounded-full p-2 text-white flex-shrink-0 mt-1">
-                        <FaPhone className="h-4 w-4" />
-                      </div>
-                      <div className="flex-1 min-w-0">
-                        <div className="flex items-center">
-                          <ClientOnly>
-                            <ProtectedContact 
-                              type="phone" 
-                              value="+31653206004"
-                              className="text-neutral-700 hover:text-primary transition-colors cursor-pointer"
-                            />
-                          </ClientOnly>
-                          <span className="text-neutral-600 text-sm ml-2">(Gid)</span>
-                        </div>
-                      </div>
-                    </div>
-
-                    {/* Email */}
-                    <div className="flex items-start space-x-3">
-                      <div className="bg-primary rounded-full p-2 text-white flex-shrink-0 mt-1">
-                        <FaEnvelope className="h-4 w-4" />
-                      </div>
-                      <div className="flex-1 min-w-0">
-                        <ClientOnly>
-                          <ProtectedContact 
-                            type="email" 
-                            value="gid.gehlen@nibmtowercranes.com"
-                            className="text-neutral-700 hover:text-primary transition-colors cursor-pointer text-xs"
-                          />
-                        </ClientOnly>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -358,14 +358,14 @@ export default function ContactClient() {
           </h2>
           <div className="relative h-96 w-full rounded-lg overflow-hidden">
             <iframe
-              src="https://www.google.com/maps?q=Kidron+8+Str,+Alfi+Menashe+4485100,+Israel&output=embed"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.123456789!2d5.8723456!3d50.9123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zS3J1aXN3ZWcgOCwgNjM2MSBURyBOdXRoLCBOZXRoZXJsYW5kcw!5e0!3m2!1sen!2snl!4v1677581082049!5m2!1sen!2snl"
               width="100%"
               height="100%"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Chanan Trading Locatie - Kidron 8 Str, Alfi-Menashe, Israël"
+              title="NIBM Kranen BV Locatie - Kruisweg 8, Nuth"
             ></iframe>
           </div>
         </div>

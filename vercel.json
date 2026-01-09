@@ -1,7 +1,7 @@
 {
   "version": 2,
   "env": {
-    "NEXTAUTH_URL": "https://nibmvb.eu",
+    "NEXTAUTH_URL": "https://www.chanan-trading.com",
     "NODE_ENV": "production"
   }
 } 
