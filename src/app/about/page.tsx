@@ -229,18 +229,20 @@ export default function About() {
             >
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="relative min-h-[400px] flex items-center justify-center">
-                  <Image
-                    src="/images/IMG_4839.JPG"
-                    alt="Team Member"
-                    width={300}
-                    height={300}
-                    className="rounded-full shadow-lg object-cover"
-                    quality={80}
-                    loading="lazy"
-                    placeholder="blur"
-                    blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFeAJpgZXCLgAAAABJRU5ErkJggg=="
-                    sizes="(max-width: 768px) 100vw, 300px"
-                  />
+                  <div className="w-[300px] h-[300px] rounded-full overflow-hidden shadow-lg">
+                    <Image
+                      src="/images/IMG_4839.JPG"
+                      alt="Team Member"
+                      width={300}
+                      height={300}
+                      className="w-full h-full object-cover"
+                      quality={80}
+                      loading="lazy"
+                      placeholder="blur"
+                      blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFeAJpgZXCLgAAAABJRU5ErkJggg=="
+                      sizes="300px"
+                    />
+                  </div>
                 </div>
                 <div className="p-8 flex flex-col justify-center">
                   <h3 className="text-2xl font-bold text-neutral-900 mb-2">
